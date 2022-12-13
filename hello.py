@@ -6,4 +6,4 @@ def application(env, start_response):
     for param in params:
         result += param+'\n'
         
-    return [params.strip('\n')]
+    return [result.strip('\n')]
