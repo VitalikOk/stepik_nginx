@@ -1,5 +1,5 @@
-sudo ln -s /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/test.conf
 sudo rm -rf /etc/nginx/sites-enabled/default
+sudo ln -s /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default
 sudo ln -s /home/box/web/etc/gunicorn.conf.py /etc/gunicorn.d/gunicorn.conf.py
 sudo mkdir /home/box/web/{log,pid}/
 sudo touch /home/box/web/log/{gunicorn_access.log,gunicorn_error.log}
