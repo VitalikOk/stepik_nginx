@@ -5,5 +5,5 @@ def application(env, start_response):
     result = ''
     for param in params:
         result += param+'\n'
-        
-    return [result.strip('\n')]
+    result = [param+"\r\n" for param in params]
+    return result
