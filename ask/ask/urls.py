@@ -18,11 +18,19 @@ from django.urls import path
 import qa.views as qa
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', qa.test),
-    path('login/', qa.test),
-    path('question/123/', qa.test),
-    path('ask/', qa.test),
-    path('popular/', qa.test),
-    path('new/', qa.test),
+    
+    # path('admin/', admin.site.urls),
+    # path('', qa.test),
+    # path('login/', qa.test),
+    # path('question/123/', qa.test),
+    # path('ask/', qa.test),
+    # path('popular/', qa.test),
+    # path('new/', qa.test),
+    url(r'^$', 'test'),                                                              
+    url(r'^login/.*$', 'test', name='login'),                                    
+    url(r'^signup/.*', 'test', name='signup'),                                   
+    url(r'^question/(?P<id>[0-9]+)/$', 'test', name='question'),                 
+    url(r'^ask/.*', 'test', name='ask'),                                         
+    url(r'^popular/.*', 'test', name='popular'),                                 
+    url(r'^new/.*', 'test', name='new'), 
 ]
