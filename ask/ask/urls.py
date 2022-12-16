@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', qa.test),
     path('login/', qa.test),
-    path('question/123/', qa.test),
+    path('question/<int:id>/', qa.test),
     path('ask/', qa.test),
     path('popular/', qa.test),
     path('new/', qa.test),
