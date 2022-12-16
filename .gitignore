@@ -1,1 +1,4 @@
 .DS_Store
+dockerfile
+docker-compose.yml
+nginxask/dockerfile
