@@ -25,4 +25,5 @@ urlpatterns = [
     path('ask/', qa.test),
     path('popular/', qa.test),
     path('new/', qa.test),
+    path('signup/', qa.test),
 ]
