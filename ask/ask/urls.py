@@ -1,7 +1,7 @@
 """ask URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.1/topics/http/urls/
+    https://docs.djangoproject.com/en/2.1/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -18,7 +18,6 @@ from django.urls import path
 import qa.views as qa
 
 urlpatterns = [
-    
     path('admin/', admin.site.urls),
     path('', qa.test),
     path('login/', qa.test),
@@ -26,11 +25,4 @@ urlpatterns = [
     path('ask/', qa.test),
     path('popular/', qa.test),
     path('new/', qa.test),
-    # url(r'^$', 'test'),                                                              
-    # url(r'^login/.*$', 'test', name='login'),                                    
-    # url(r'^signup/.*', 'test', name='signup'),                                   
-    # url(r'^question/(?P<id>[0-9]+)/$', 'test', name='question'),                 
-    # url(r'^ask/.*', 'test', name='ask'),                                         
-    # url(r'^popular/.*', 'test', name='popular'),                                 
-    # url(r'^new/.*', 'test', name='new'), 
 ]
