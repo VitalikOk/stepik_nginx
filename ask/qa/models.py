@@ -25,7 +25,7 @@ class Question(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
     added_at = models.DateTimeField(blank = True, auto_now_add=True)
-    rating = mosels.IntegerField(Defaul=0)
+    rating = models.IntegerField(Defaul=0)
     author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     likes = models.ManyToManyField(User)
     objects = QuestionManager() 
