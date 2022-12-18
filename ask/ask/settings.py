@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'stepik',
         "USER": "stepik",
         "PASSWORD": "stepik",
-        "HOST": "stepik",
+        "HOST": "localhost",
         # }
     }
 }
