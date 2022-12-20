@@ -29,7 +29,7 @@ def paginate(request, qs):
 
 
 @require_GET
-def index(request):
+def new(request):
     
     paginator = paginate(request, Question.objects.new())    
 
@@ -48,7 +48,7 @@ def popular(request):
 
 
 @require_GET
-def new(request, id):
+def question(request, id):
     question = get_object_or_404(Question, id=id)
     answers =  get_object_or_404(Answer, question=question)
     return render(request, 'qa/question.html', {
