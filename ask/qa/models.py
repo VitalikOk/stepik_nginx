@@ -20,6 +20,18 @@ class Question(models.Model):
     author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     likes = models.ManyToManyField(User, related_name='likes_set')
     objects = QuestionManager() 
+    
+    
+    def __unicode__(self):
+        return self.title
+    
+    
+    def get_url(self):
+        return reverse('questions', kwargs={'id': self.id})
+    
+    
+    # def get_url(self):
+    #     return reverse('blog:tag-details', kwargs={'slug': self.slug})
         
 
 class Answer(models.Model):
@@ -27,4 +39,7 @@ class Answer(models.Model):
     added_at = models.DateTimeField(auto_now_add=True)
     question = models.ForeignKey(Question, null=True, on_delete=models.SET_NULL)
     author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
+    
+    def __unicode__(self):
+        return self.text
     
