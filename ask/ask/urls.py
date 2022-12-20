@@ -30,17 +30,17 @@ urlpatterns = [
 
 
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
     
-    path('', qa.index),
-    path('popular/', qa.popular),
-    path('question/<int:id>/', qa.question),
+#     path('', qa.index),
+#     path('popular/', qa.popular),
+#     path('question/<int:id>/', qa.question),
     
-    path('test/', qa.test),
+#     path('test/', qa.test),
     
-    path('login/', qa.test),
-    path('ask/', qa.test),    
-    path('new/', qa.test),
-    path('signup/', qa.test),
-]
+#     path('login/', qa.test),
+#     path('ask/', qa.test),    
+#     path('new/', qa.test),
+#     path('signup/', qa.test),
+# ]
