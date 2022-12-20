@@ -51,7 +51,7 @@ return render(request, 'qa/questions.html', {
 def question(request, id):
     question = get_object_or_404(Question, id=id)
     answers =  get_object_or_404(Answer, question=question)
-    return render(request, 'qa/question.html', {
+return render(request, 'qa/question.html', {
         'question': question,
         'answers': answers
     })
