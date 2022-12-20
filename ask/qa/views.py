@@ -48,7 +48,7 @@ def popular(request):
 
 
 @require_GET
-def question(request, id):
+def new(request, id):
     question = get_object_or_404(Question, id=id)
     answers =  get_object_or_404(Answer, question=question)
     return render(request, 'qa/question.html', {
