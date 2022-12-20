@@ -50,21 +50,8 @@ return render(request, 'qa/questions.html', {
 @require_GET
 def question(request, id):
     question = get_object_or_404(Question, id=id)
-    try:
-        answer = question.answer.filter(user=request.user)[0]
-    except Vote.DoesNotExist:
-        vote = None
+    answers =  get_object_or_404(Answer, question=question)
     return render(request, 'qa/question.html', {
-        'question':     question,
+        'question': question,
+        'answers': answers
     })
-    
-    
-    def post_details(request, slug):
-    post = get_object_or_404(Post, slug=slug)
-
-    return render(request, 'blog/post_details.html', {
-        'post':     post,
-        'category': post.category,
-        'tags':     post.tags.all()[:],
-        'vote':     vote,
-})
