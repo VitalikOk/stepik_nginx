@@ -48,7 +48,7 @@ def popular(request):
 
 
 @require_GET
-def question(request):
+def question(request, *args, **kwargs):
     try:
         id = int(request.GET.get('id', 0))
     except ValueError:
