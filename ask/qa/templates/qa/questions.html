@@ -7,7 +7,7 @@
           <li>
           {% endif %}
           {{ paginator.title }}
-            <a href="{{ paginator.baseurl }}{{ p.number }}">
+            <a href="{{ paginator.get_url }}{{ p.id }}">
             {{ p.number }}</a>
         </li>
         {% endfor %}
