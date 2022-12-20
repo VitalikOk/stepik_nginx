@@ -33,7 +33,7 @@ def question(request):
     
     paginator = paginate(request, Question.objects.new())    
 
-return render(request, 'qa/questions.html', {
+    return render(request, 'qa/questions.html', {
         'paginator': paginator,
     })
 
@@ -42,7 +42,7 @@ def popular(request):
     
     paginator = paginate(request, Question.objects.popular())    
 
-return render(request, 'qa/questions.html', {
+    return render(request, 'qa/questions.html', {
         'paginator': paginator,
     })
 
@@ -51,7 +51,7 @@ return render(request, 'qa/questions.html', {
 def question(request, id):
     question = get_object_or_404(Question, id=id)
     answers =  get_object_or_404(Answer, question=question)
-return render(request, 'qa/question.html', {
+    return render(request, 'qa/question.html', {
         'question': question,
         'answers': answers
     })
