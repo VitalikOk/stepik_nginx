@@ -29,7 +29,7 @@ def paginate(request, qs):
 
 
 @require_GET
-def question(request):
+def index(request):
     
     paginator = paginate(request, Question.objects.new())    
 
