@@ -6,8 +6,8 @@
           {% else %}
           <li>
           {% endif %}
-          {{ paginator.title }}
-            <a href="{{ paginator.get_url }}{{ p.id }}">
+          {{ p.title }}
+            <a href="{{ p.get_url }}{{ p.id }}">
             {{ p.number }}</a>
         </li>
         {% endfor %}
