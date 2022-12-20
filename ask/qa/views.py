@@ -48,7 +48,12 @@ def popular(request):
 
 
 @require_GET
-def question(request, id):
+def question(request):
+    try:
+        id = int(request.GET.get('id', 0))
+    except ValueError:
+        raise Http404
+    
     question = get_object_or_404(Question, id=id)
     answers =  get_object_or_404(Answer, question=question)
     return render(request, 'qa/question.html', {
