@@ -55,7 +55,7 @@ def question(request, *args, **kwargs):
         raise Http404
     
     question = get_object_or_404(Question, id=id)
-    answers =  get_object_or_404(Answer, question=question)
+    answers =  Answer.objects.filter(question=question)
     return render(request, 'qa/question.html', {
         'question': question,
         'answers': answers
