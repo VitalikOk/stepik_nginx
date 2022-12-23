@@ -22,7 +22,7 @@ class Question(models.Model):
     likes = models.ManyToManyField(User, related_name='likes_set', null=True)
     objects = QuestionManager() 
     
-    # get_or_create(pk=3141592, title='question about pi', text='what is the last digit?', author=user)
+
     
     def __unicode__(self):
         return self.title
@@ -39,7 +39,7 @@ class Question(models.Model):
 class Answer(models.Model):
     text = models.TextField()
     added_at = models.DateTimeField(null=True)
-    question = models.ForeignKey(Question, null=True, on_delete=models.SET_NULL)
+    question = models.ForeignKey(Question, null=True, related_name='answer_set', on_delete=models.SET_NULL)
     author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     
     def __unicode__(self):
