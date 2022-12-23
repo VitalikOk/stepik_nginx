@@ -2,3 +2,4 @@
 dockerfile
 docker-compose.yml
 nginxask/dockerfile
+docker_init.sh

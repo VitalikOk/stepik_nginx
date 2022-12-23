@@ -16,8 +16,8 @@ class QuestionManager(models.Manager):
 class Question(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
-    added_at = models.DateTimeField(auto_now_add=True)
-    rating = models.IntegerField(default=0)
+    added_at = models.DateTimeField(auto_now_add=True, null=True)
+    rating = models.IntegerField(default=0, null=True)
     author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     likes = models.ManyToManyField(User, related_name='likes_set')
     objects = QuestionManager() 

@@ -79,10 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'stepik',
-        "USER": "stepik",
-        "PASSWORD": "stepik",
-        "HOST": "localhost",
-        # }
+        'USER': 'stepik',
+        'PASSWORD': 'stepik',
+        'HOST': '127.0.0.1',
+        # 'PORT': '3306',
     }
 }
 
