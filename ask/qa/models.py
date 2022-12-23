@@ -19,9 +19,10 @@ class Question(models.Model):
     added_at = models.DateTimeField(auto_now_add=True, null=True)
     rating = models.IntegerField(default=0, null=True)
     author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
-    likes = models.ManyToManyField(User, related_name='likes_set')
+    likes = models.ManyToManyField(User, related_name='likes_set', null=True)
     objects = QuestionManager() 
     
+    # get_or_create(pk=3141592, title='question about pi', text='what is the last digit?', author=user)
     
     def __unicode__(self):
         return self.title
