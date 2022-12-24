@@ -1,0 +1,4 @@
+172.23.0.1 - - [24/Dec/2022:13:12:03 +0000] "GET /question/3141592/ HTTP/1.1" 404 1742 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.3.824 Yowser/2.5 Safari/537.36"
+172.23.0.1 - - [24/Dec/2022:13:12:03 +0000] "GET /question/3141592/ HTTP/1.1" 404 1742 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.3.824 Yowser/2.5 Safari/537.36"
+172.23.0.1 - - [24/Dec/2022:13:12:21 +0000] "GET /init/ HTTP/1.1" 200 53 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.3.824 Yowser/2.5 Safari/537.36"
+172.23.0.1 - - [24/Dec/2022:13:12:30 +0000] "GET /question/3141592/ HTTP/1.1" 200 260 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.3.824 Yowser/2.5 Safari/537.36"

@@ -6,11 +6,13 @@ cat /home/box/.ssh/id_ecdsa.pub
 
 git clone git@github.com:VitalikOk/stepik_nginx.git /home/box/web
 
-git clone https://github.com/VitalikOk/stepik_nginx.git /home/box/web
-
 git config --global user.email "vo.okunev@gmail.com"                               
-  git config --global user.name "VitalikOk"  
+git config --global user.name "VitalikOk"  
 
-bash /home/box/web/init.sh
+
 
 cp /home/box/server_l13.py /home/box/web/server_l13.py
+
+git clone https://github.com/VitalikOk/stepik_nginx.git /home/box/web
+
+bash /home/box/web/init.sh

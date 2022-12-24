@@ -1,0 +1,41 @@
+[2022-12-24 13:06:47 +0000] [245] [INFO] Starting gunicorn 20.1.0
+[2022-12-24 13:06:47 +0000] [245] [INFO] Listening at: http://0.0.0.0:8080 (245)
+[2022-12-24 13:06:47 +0000] [246] [INFO] Starting gunicorn 20.1.0
+[2022-12-24 13:06:47 +0000] [245] [INFO] Using worker: sync
+[2022-12-24 13:06:47 +0000] [246] [INFO] Listening at: http://0.0.0.0:8000 (246)
+[2022-12-24 13:06:47 +0000] [246] [INFO] Using worker: sync
+[2022-12-24 13:06:47 +0000] [252] [INFO] Booting worker with pid: 252
+[2022-12-24 13:06:47 +0000] [253] [INFO] Booting worker with pid: 253
+[2022-12-24 13:06:47 +0000] [252] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'hello'
+[2022-12-24 13:06:47 +0000] [252] [INFO] Worker exiting (pid: 252)
+[2022-12-24 13:06:47 +0000] [245] [INFO] Shutting down: Master
+[2022-12-24 13:06:47 +0000] [245] [INFO] Reason: Worker failed to boot.
+[2022-12-24 13:08:43 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-24 13:08:43 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-24 13:08:43 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-24 13:08:43 +0000] [244] [INFO] Using worker: sync
+[2022-12-24 13:08:43 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-24 13:08:43 +0000] [243] [INFO] Using worker: sync
+[2022-12-24 13:08:43 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-24 13:08:43 +0000] [251] [INFO] Booting worker with pid: 251
