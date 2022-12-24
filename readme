@@ -6,8 +6,8 @@ cat /home/box/.ssh/id_ecdsa.pub
 
 git clone git@github.com:VitalikOk/stepik_nginx.git /home/box/web
 
-git config --global user.email "vo.okunev@gmail.com"                               
-git config --global user.name "VitalikOk"  
+git config --global user.email ""                               
+git config --global user.name ""  
 
 
 
