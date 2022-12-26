@@ -1,14 +1,19 @@
 from django.shortcuts import render
 from django.http import HttpResponse 
 from django.shortcuts import render, get_object_or_404
-from django.views.decorators.http import require_GET
+from django.views.decorators.http import require_GET, require_http_methods
 from qa.models import Question, Answer
+from qa.forms import AskForm, AnswerForm
 from django.core.paginator import Paginator, EmptyPage
 
 from django.contrib.auth.models import User
 from django.db.models import Max
 from django.utils import timezone
 import time
+
+from django.http import HttpResponseRedirect
+from django.views.decorators.csrf import csrf_exempt
+
 
 
 def import_data():
@@ -82,8 +87,8 @@ def popular(request):
         'paginator': paginator,
     })
 
-
-@require_GET
+@csrf_exempt
+@require_http_methods(["GET", "POST"])
 def question(request, *args, **kwargs):
     id = 0
     try:
@@ -93,7 +98,33 @@ def question(request, *args, **kwargs):
     
     question = get_object_or_404(Question, id=id)
     answers =  Answer.objects.filter(question=question)
+    if request.method == "POST":
+        form = AnswerForm(request.POST)
+        if form.is_valid():
+            
+            answer = form.save()
+            url = question.get_url()
+            return HttpResponseRedirect(url)
+    else:
+        form = AnswerForm(initial={'question_id': id})            
     return render(request, 'qa/question.html', {
         'question': question,
-        'answers': answers
+        'answers': answers,
+        'form': form
     })
+
+    
+@csrf_exempt    
+@require_http_methods(["GET", "POST"])
+def ask(request):
+    if request.method == "POST":
+        form = AskForm(request.POST)
+        if form.is_valid():
+            question = form.save()
+            url = question.get_url()
+            return HttpResponseRedirect(url)
+    else:
+        form = AskForm()
+    return render(request, 'qa/ask.html', {
+        'form': form
+})

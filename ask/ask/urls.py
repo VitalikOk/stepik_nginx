@@ -26,6 +26,7 @@ urlpatterns = [
 #    url(r'^ask/.*', qa.ask, name='ask'),                                         
    url(r'^popular/.*', qa.popular, name='popular'),                                 
    url(r'^new/.*', qa.new, name='new'),                                          
+   url(r'^ask/', qa.ask, name='ask'),   
    url(r'^init/', qa.init, name='init'),  
 ]
 
