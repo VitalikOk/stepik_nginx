@@ -318,3 +318,32 @@ ImportError: No module named 'hello'
 [2022-12-26 10:31:56 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:297)
 [2022-12-26 10:31:56 +0000] [297] [INFO] Worker exiting (pid: 297)
 [2022-12-26 10:31:56 +0000] [304] [INFO] Booting worker with pid: 304
+[2022-12-26 11:10:26 +0000] [158] [INFO] Starting gunicorn 20.1.0
+[2022-12-26 11:10:26 +0000] [157] [INFO] Starting gunicorn 20.1.0
+[2022-12-26 11:10:26 +0000] [158] [INFO] Listening at: http://0.0.0.0:8000 (158)
+[2022-12-26 11:10:26 +0000] [157] [INFO] Listening at: http://0.0.0.0:8080 (157)
+[2022-12-26 11:10:26 +0000] [158] [INFO] Using worker: sync
+[2022-12-26 11:10:26 +0000] [157] [INFO] Using worker: sync
+[2022-12-26 11:10:26 +0000] [164] [INFO] Booting worker with pid: 164
+[2022-12-26 11:10:26 +0000] [163] [INFO] Booting worker with pid: 163
+[2022-12-26 11:11:52 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:163)
+[2022-12-26 11:11:52 +0000] [163] [INFO] Worker exiting (pid: 163)
+[2022-12-26 11:11:52 +0000] [175] [INFO] Booting worker with pid: 175
+[2022-12-26 11:12:40 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:175)
+[2022-12-26 11:12:40 +0000] [175] [INFO] Worker exiting (pid: 175)
+[2022-12-26 11:12:40 +0000] [178] [INFO] Booting worker with pid: 178
+[2022-12-26 11:14:17 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:178)
+[2022-12-26 11:14:17 +0000] [178] [INFO] Worker exiting (pid: 178)
+[2022-12-26 11:14:17 +0000] [185] [INFO] Booting worker with pid: 185
+[2022-12-26 11:17:20 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:185)
+[2022-12-26 11:17:20 +0000] [185] [INFO] Worker exiting (pid: 185)
+[2022-12-26 11:17:21 +0000] [191] [INFO] Booting worker with pid: 191
+[2022-12-26 11:17:58 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:191)
+[2022-12-26 11:17:58 +0000] [191] [INFO] Worker exiting (pid: 191)
+[2022-12-26 11:17:58 +0000] [197] [INFO] Booting worker with pid: 197
+[2022-12-26 11:22:56 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:197)
+[2022-12-26 11:22:56 +0000] [197] [INFO] Worker exiting (pid: 197)
+[2022-12-26 11:22:56 +0000] [207] [INFO] Booting worker with pid: 207
+[2022-12-26 11:23:47 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:207)
+[2022-12-26 11:23:47 +0000] [207] [INFO] Worker exiting (pid: 207)
+[2022-12-26 11:23:47 +0000] [210] [INFO] Booting worker with pid: 210

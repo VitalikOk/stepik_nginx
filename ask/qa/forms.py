@@ -30,7 +30,7 @@ class AnswerForm(forms.Form):
     форма добавления ответа
     """
     text = forms.CharField(widget=forms.Textarea)
-    question_id = forms.IntegerField(widget=forms.HiddenInput())
+    question = forms.IntegerField(widget=forms.HiddenInput())
     def clean(self):
         if False:
             raise forms.ValidationError(
@@ -39,7 +39,7 @@ class AnswerForm(forms.Form):
     )
             
     def save(self):
-        question = Question.objects.get(id=self.cleaned_data['question_id'])
+        question = Question.objects.get(id=self.cleaned_data['question'])
         answer = Answer(text=self.cleaned_data['text'],question=question)
         answer.save()
         return answer

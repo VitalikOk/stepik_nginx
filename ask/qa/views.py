@@ -106,7 +106,7 @@ def question(request, *args, **kwargs):
             url = question.get_url()
             return HttpResponseRedirect(url)
     else:
-        form = AnswerForm(initial={'question_id': id})            
+        form = AnswerForm(initial={'question': id})            
     return render(request, 'qa/question.html', {
         'question': question,
         'answers': answers,
