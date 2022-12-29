@@ -105,13 +105,14 @@ def question(request, *args, **kwargs):
     answers =  Answer.objects.filter(question=question)
     if request.method == "POST":
         form = AnswerForm(request.POST)
+        form._author = request.user
         if form.is_valid():
             
             answer = form.save()
             url = question.get_url()
             return HttpResponseRedirect(url)
     else:
-        form = AnswerForm(initial={'question': id})            
+        form = AnswerForm(initial={'question': id, 'author': request.user})            
     return render(request, 'qa/question.html', {
         'question': question,
         'answers': answers,
@@ -125,12 +126,13 @@ def question(request, *args, **kwargs):
 def ask(request):
     if request.method == "POST":
         form = AskForm(request.POST)
+        form._author = request.user
         if form.is_valid():
             question = form.save()
             url = question.get_url()
             return HttpResponseRedirect(url)
     else:
-        form = AskForm()
+        form = AskForm(initial={'author': request.user})
     return render(request, 'qa/ask.html', {
         'form': form
 })

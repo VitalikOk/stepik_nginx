@@ -1,12 +1,13 @@
 
 <!-- {% csrf_token %} -->
-<h1>{{ question.title }}</h1>
+<h1>{{ question.author }}: {{ question.title }}</h1>
 <div>
     {{ question.text }}
 </div>
+
 <ul>
 {% for ans in answers.all %}
-    <li>{{ ans.text }}
+    <li>{{ ans.author }}: {{ ans.text }}
 {% endfor %}
 </ul>
 {% for e in form.non_field_errors %}

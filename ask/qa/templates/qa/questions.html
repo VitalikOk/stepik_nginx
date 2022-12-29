@@ -6,9 +6,9 @@
           {% else %}
           <li>
           {% endif %}
-          {{ p.title }}
-            <a href="{{ p.get_url }}{{ p.id }}">
-            {{ p.number }}</a>
+          {{ p.author }}: {{ p.title }}
+            <a href="{{ p.get_url }}">
+            {{ p.id }}</a>
         </li>
         {% endfor %}
         </ul></nav>

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django import forms
-from qa.models import Question, Answer, User
+from qa.models import Question, Answer
+from django.contrib.auth.models import User
 from django.db import IntegrityError
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth.password_validation import validate_password
@@ -12,7 +13,7 @@ class AskForm(forms.Form):
     """
     title = forms.CharField(max_length=100)
     text = forms.CharField(widget=forms.Textarea)
-    
+    author = forms.CharField(max_length=30)
     
     def clean(self):
         if False:
@@ -25,6 +26,11 @@ class AskForm(forms.Form):
         question = Question(**self.cleaned_data)
         question.save()
         return question
+    
+    def clean_author(self):
+        author = self.cleaned_data['author']
+        author = User.objects.get(username=author)
+        return author    
             
 
 
@@ -34,12 +40,18 @@ class AnswerForm(forms.Form):
     """
     text = forms.CharField(widget=forms.Textarea)
     question = forms.IntegerField(widget=forms.HiddenInput())
+    author = forms.CharField(max_length=30)
     def clean(self):
         if False:
             raise forms.ValidationError(
                 u'Какая-то ошибка',
                 code='err'
     )
+            
+    def clean_author(self):
+        author = self.cleaned_data['author']
+        author = User.objects.get(username=author)
+        return author   
             
     def save(self):
         question = Question.objects.get(id=self.cleaned_data['question'])
@@ -72,13 +84,11 @@ class SignupForm(forms.Form):
             
     def save(self):
         user = User(**self.cleaned_data)
-        # try: 
-        #     user.save()
-        #     return user
-        # except IntegrityError as e:
-        #     raise Exception(e)
-        user.save()
-        return user
+        try: 
+            user.save()
+            return user
+        except IntegrityError as e:
+            raise Exception(e)
 class SigninForm(forms.Form):
     """
     форма для логина
