@@ -13,7 +13,7 @@ class AskForm(forms.Form):
     """
     title = forms.CharField(max_length=100)
     text = forms.CharField(widget=forms.Textarea)
-    author = forms.CharField(max_length=30)
+    author = forms.CharField(max_length=50, blank = True)
     
     def clean(self):
         if False:
@@ -43,7 +43,7 @@ class AnswerForm(forms.Form):
     """
     text = forms.CharField(widget=forms.Textarea)
     question = forms.IntegerField(widget=forms.HiddenInput())
-    author = forms.CharField(max_length=30)
+    author = forms.CharField(max_length=50, blank = True)
     def clean(self):
         if False:
             raise forms.ValidationError(

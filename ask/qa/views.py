@@ -72,7 +72,7 @@ def init(request):
     })
 
 @require_GET
-@login_required(login_url='/login/')
+# @login_required(login_url='/login/')
 def new(request):
     
     paginator = paginate(request, Question.objects.new())    
@@ -82,7 +82,7 @@ def new(request):
     })
 
 @require_GET
-@login_required(login_url='/login/')
+# @login_required(login_url='/login/')
 def popular(request):
     
     paginator = paginate(request, Question.objects.popular())    
