@@ -347,3 +347,1259 @@ ImportError: No module named 'hello'
 [2022-12-26 11:23:47 +0000] [158] [CRITICAL] WORKER TIMEOUT (pid:207)
 [2022-12-26 11:23:47 +0000] [207] [INFO] Worker exiting (pid: 207)
 [2022-12-26 11:23:47 +0000] [210] [INFO] Booting worker with pid: 210
+[2022-12-27 19:11:19 +0000] [239] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:11:19 +0000] [238] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:11:19 +0000] [239] [INFO] Listening at: http://0.0.0.0:8000 (239)
+[2022-12-27 19:11:19 +0000] [239] [INFO] Using worker: sync
+[2022-12-27 19:11:19 +0000] [238] [INFO] Listening at: http://0.0.0.0:8080 (238)
+[2022-12-27 19:11:19 +0000] [238] [INFO] Using worker: sync
+[2022-12-27 19:11:19 +0000] [244] [INFO] Booting worker with pid: 244
+[2022-12-27 19:11:19 +0000] [245] [INFO] Booting worker with pid: 245
+[2022-12-27 19:13:45 +0000] [287] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:13:45 +0000] [288] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:13:45 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:13:45 +0000] [288] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:13:45 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:45 +0000] [288] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:46 +0000] [288] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:13:46 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:13:46 +0000] [288] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:46 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:47 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:13:47 +0000] [288] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:13:47 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:47 +0000] [288] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:48 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:13:48 +0000] [288] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:13:48 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:48 +0000] [288] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:49 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:13:49 +0000] [288] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:13:49 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:49 +0000] [288] [ERROR] Retrying in 1 second.
+[2022-12-27 19:13:50 +0000] [287] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-27 19:13:50 +0000] [288] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-27 19:23:08 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:23:08 +0000] [243] [INFO] Listening at: http://0.0.0.0:8000 (243)
+[2022-12-27 19:23:08 +0000] [242] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:23:08 +0000] [243] [INFO] Using worker: sync
+[2022-12-27 19:23:08 +0000] [242] [INFO] Listening at: http://0.0.0.0:8080 (242)
+[2022-12-27 19:23:08 +0000] [242] [INFO] Using worker: sync
+[2022-12-27 19:23:08 +0000] [248] [INFO] Booting worker with pid: 248
+[2022-12-27 19:23:08 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-27 19:24:40 +0000] [293] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:24:40 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:24:40 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:40 +0000] [292] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:24:40 +0000] [292] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:24:40 +0000] [292] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:41 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:24:41 +0000] [292] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:24:41 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:41 +0000] [292] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:42 +0000] [292] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:24:42 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:24:42 +0000] [292] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:42 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:43 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:24:43 +0000] [292] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:24:43 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:43 +0000] [292] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:44 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-27 19:24:44 +0000] [292] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-27 19:24:44 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:44 +0000] [292] [ERROR] Retrying in 1 second.
+[2022-12-27 19:24:45 +0000] [293] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-27 19:24:45 +0000] [292] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-27 19:26:11 +0000] [243] [CRITICAL] WORKER TIMEOUT (pid:248)
+[2022-12-27 19:26:11 +0000] [248] [INFO] Worker exiting (pid: 248)
+[2022-12-27 19:26:11 +0000] [299] [INFO] Booting worker with pid: 299
+[2022-12-27 19:26:45 +0000] [243] [CRITICAL] WORKER TIMEOUT (pid:299)
+[2022-12-27 19:26:45 +0000] [299] [INFO] Worker exiting (pid: 299)
+[2022-12-27 19:26:45 +0000] [302] [INFO] Booting worker with pid: 302
+[2022-12-27 19:28:08 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:28:08 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-27 19:28:08 +0000] [244] [INFO] Using worker: sync
+[2022-12-27 19:28:08 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-27 19:28:08 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-27 19:28:08 +0000] [243] [INFO] Using worker: sync
+[2022-12-27 19:28:08 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-27 19:28:08 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-27 19:28:45 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:249)
+[2022-12-27 19:28:45 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2022-12-27 19:28:45 +0000] [253] [INFO] Booting worker with pid: 253
+[2022-12-27 19:32:05 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:253)
+[2022-12-27 19:32:05 +0000] [253] [INFO] Worker exiting (pid: 253)
+[2022-12-27 19:32:05 +0000] [258] [INFO] Booting worker with pid: 258
+[2022-12-27 19:33:25 +0000] [250] [INFO] Worker exiting (pid: 250)
+[2022-12-27 19:33:25 +0000] [243] [INFO] Handling signal: term
+[2022-12-27 19:33:25 +0000] [258] [INFO] Worker exiting (pid: 258)
+[2022-12-27 19:33:25 +0000] [244] [INFO] Handling signal: term
+[2022-12-28 07:50:36 +0000] [240] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:50:36 +0000] [241] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:50:36 +0000] [241] [INFO] Listening at: http://0.0.0.0:8000 (241)
+[2022-12-28 07:50:36 +0000] [240] [INFO] Listening at: http://0.0.0.0:8080 (240)
+[2022-12-28 07:50:36 +0000] [241] [INFO] Using worker: sync
+[2022-12-28 07:50:36 +0000] [240] [INFO] Using worker: sync
+[2022-12-28 07:50:36 +0000] [246] [INFO] Booting worker with pid: 246
+[2022-12-28 07:50:36 +0000] [247] [INFO] Booting worker with pid: 247
+[2022-12-28 07:50:36 +0000] [246] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.5/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python3.5/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.5/site-packages/django/apps/registry.py", line 112, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.5/site-packages/django/apps/config.py", line 198, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 658, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 724, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/qa/models.py", line 68
+    if user.password != hashed_pass
+                                  ^
+SyntaxError: invalid syntax
+[2022-12-28 07:50:36 +0000] [246] [INFO] Worker exiting (pid: 246)
+[2022-12-28 07:50:36 +0000] [241] [INFO] Shutting down: Master
+[2022-12-28 07:50:36 +0000] [241] [INFO] Reason: Worker failed to boot.
+[2022-12-28 07:52:24 +0000] [288] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:52:24 +0000] [288] [INFO] Listening at: http://0.0.0.0:8000 (288)
+[2022-12-28 07:52:24 +0000] [288] [INFO] Using worker: sync
+[2022-12-28 07:52:24 +0000] [287] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:52:24 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:52:24 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-28 07:52:24 +0000] [293] [INFO] Booting worker with pid: 293
+[2022-12-28 07:52:24 +0000] [293] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.5/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python3.5/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.5/site-packages/django/apps/registry.py", line 112, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.5/site-packages/django/apps/config.py", line 198, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/qa/models.py", line 54, in <module>
+    class Session(models.Model):
+  File "/home/box/web/ask/qa/models.py", line 56, in Session
+    user = models.ForeignKey(User)
+TypeError: __init__() missing 1 required positional argument: 'on_delete'
+[2022-12-28 07:52:24 +0000] [293] [INFO] Worker exiting (pid: 293)
+[2022-12-28 07:52:24 +0000] [288] [INFO] Shutting down: Master
+[2022-12-28 07:52:24 +0000] [288] [INFO] Reason: Worker failed to boot.
+[2022-12-28 07:52:25 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:52:25 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-28 07:52:26 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:52:26 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-28 07:52:27 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:52:27 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-28 07:52:28 +0000] [287] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:52:28 +0000] [287] [ERROR] Retrying in 1 second.
+[2022-12-28 07:52:29 +0000] [287] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 07:54:24 +0000] [335] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:54:24 +0000] [334] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:54:24 +0000] [335] [INFO] Listening at: http://0.0.0.0:8000 (335)
+[2022-12-28 07:54:24 +0000] [334] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:54:24 +0000] [335] [INFO] Using worker: sync
+[2022-12-28 07:54:24 +0000] [334] [ERROR] Retrying in 1 second.
+[2022-12-28 07:54:24 +0000] [340] [INFO] Booting worker with pid: 340
+[2022-12-28 07:54:25 +0000] [334] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:54:25 +0000] [334] [ERROR] Retrying in 1 second.
+[2022-12-28 07:54:26 +0000] [334] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:54:26 +0000] [334] [ERROR] Retrying in 1 second.
+[2022-12-28 07:54:27 +0000] [334] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:54:27 +0000] [334] [ERROR] Retrying in 1 second.
+[2022-12-28 07:54:28 +0000] [334] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:54:28 +0000] [334] [ERROR] Retrying in 1 second.
+[2022-12-28 07:54:29 +0000] [334] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 07:55:44 +0000] [382] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:55:44 +0000] [382] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:55:44 +0000] [382] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:44 +0000] [383] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:55:44 +0000] [383] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:55:44 +0000] [383] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:45 +0000] [382] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:55:45 +0000] [383] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:55:45 +0000] [382] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:45 +0000] [383] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:46 +0000] [382] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:55:46 +0000] [383] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:55:46 +0000] [382] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:46 +0000] [383] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:47 +0000] [382] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:55:47 +0000] [383] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:55:47 +0000] [382] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:47 +0000] [383] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:48 +0000] [382] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:55:48 +0000] [383] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:55:48 +0000] [382] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:48 +0000] [383] [ERROR] Retrying in 1 second.
+[2022-12-28 07:55:49 +0000] [383] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-28 07:55:49 +0000] [382] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 07:58:05 +0000] [429] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:58:05 +0000] [429] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:58:05 +0000] [429] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:05 +0000] [428] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 07:58:05 +0000] [428] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:58:05 +0000] [428] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:06 +0000] [429] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:58:06 +0000] [428] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:58:06 +0000] [429] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:06 +0000] [428] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:07 +0000] [428] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:58:07 +0000] [429] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:58:07 +0000] [428] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:07 +0000] [429] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:08 +0000] [428] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:58:08 +0000] [429] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:58:08 +0000] [428] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:08 +0000] [429] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:09 +0000] [428] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 07:58:09 +0000] [429] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 07:58:09 +0000] [428] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:09 +0000] [429] [ERROR] Retrying in 1 second.
+[2022-12-28 07:58:10 +0000] [429] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-28 07:58:10 +0000] [428] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 07:59:24 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:340)
+[2022-12-28 07:59:24 +0000] [340] [INFO] Worker exiting (pid: 340)
+[2022-12-28 07:59:24 +0000] [435] [INFO] Booting worker with pid: 435
+[2022-12-28 08:00:35 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:435)
+[2022-12-28 08:00:35 +0000] [435] [INFO] Worker exiting (pid: 435)
+[2022-12-28 08:00:35 +0000] [438] [INFO] Booting worker with pid: 438
+[2022-12-28 08:01:06 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:438)
+[2022-12-28 08:01:06 +0000] [438] [INFO] Worker exiting (pid: 438)
+[2022-12-28 08:01:06 +0000] [444] [INFO] Booting worker with pid: 444
+[2022-12-28 08:05:19 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:444)
+[2022-12-28 08:05:19 +0000] [444] [INFO] Worker exiting (pid: 444)
+[2022-12-28 08:05:19 +0000] [447] [INFO] Booting worker with pid: 447
+[2022-12-28 08:08:35 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:447)
+[2022-12-28 08:08:35 +0000] [447] [INFO] Worker exiting (pid: 447)
+[2022-12-28 08:08:35 +0000] [451] [INFO] Booting worker with pid: 451
+[2022-12-28 08:11:14 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:451)
+[2022-12-28 08:11:14 +0000] [451] [INFO] Worker exiting (pid: 451)
+[2022-12-28 08:11:15 +0000] [454] [INFO] Booting worker with pid: 454
+[2022-12-28 08:12:13 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:454)
+[2022-12-28 08:12:13 +0000] [454] [INFO] Worker exiting (pid: 454)
+[2022-12-28 08:12:13 +0000] [457] [INFO] Booting worker with pid: 457
+[2022-12-28 08:13:44 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:457)
+[2022-12-28 08:13:44 +0000] [457] [INFO] Worker exiting (pid: 457)
+[2022-12-28 08:13:44 +0000] [461] [INFO] Booting worker with pid: 461
+[2022-12-28 08:14:53 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:461)
+[2022-12-28 08:14:53 +0000] [461] [INFO] Worker exiting (pid: 461)
+[2022-12-28 08:14:53 +0000] [464] [INFO] Booting worker with pid: 464
+[2022-12-28 08:33:51 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:464)
+[2022-12-28 08:33:51 +0000] [464] [INFO] Worker exiting (pid: 464)
+[2022-12-28 08:33:51 +0000] [467] [INFO] Booting worker with pid: 467
+[2022-12-28 08:46:25 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:467)
+[2022-12-28 08:46:25 +0000] [467] [INFO] Worker exiting (pid: 467)
+[2022-12-28 08:46:25 +0000] [470] [INFO] Booting worker with pid: 470
+[2022-12-28 08:46:56 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:470)
+[2022-12-28 08:46:56 +0000] [470] [INFO] Worker exiting (pid: 470)
+[2022-12-28 08:46:56 +0000] [473] [INFO] Booting worker with pid: 473
+[2022-12-28 09:20:10 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:473)
+[2022-12-28 09:20:10 +0000] [473] [INFO] Worker exiting (pid: 473)
+[2022-12-28 09:20:10 +0000] [476] [INFO] Booting worker with pid: 476
+[2022-12-28 09:24:48 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:476)
+[2022-12-28 09:24:48 +0000] [476] [INFO] Worker exiting (pid: 476)
+[2022-12-28 09:24:49 +0000] [482] [INFO] Booting worker with pid: 482
+[2022-12-28 09:26:40 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:482)
+[2022-12-28 09:26:40 +0000] [482] [INFO] Worker exiting (pid: 482)
+[2022-12-28 09:26:40 +0000] [485] [INFO] Booting worker with pid: 485
+[2022-12-28 09:27:11 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:485)
+[2022-12-28 09:27:11 +0000] [485] [INFO] Worker exiting (pid: 485)
+[2022-12-28 09:27:11 +0000] [488] [INFO] Booting worker with pid: 488
+[2022-12-28 09:44:18 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:488)
+[2022-12-28 09:44:18 +0000] [488] [INFO] Worker exiting (pid: 488)
+[2022-12-28 09:44:18 +0000] [491] [INFO] Booting worker with pid: 491
+[2022-12-28 09:44:49 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:491)
+[2022-12-28 09:44:49 +0000] [491] [INFO] Worker exiting (pid: 491)
+[2022-12-28 09:44:49 +0000] [494] [INFO] Booting worker with pid: 494
+[2022-12-28 09:45:20 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:494)
+[2022-12-28 09:45:20 +0000] [494] [INFO] Worker exiting (pid: 494)
+[2022-12-28 09:45:20 +0000] [497] [INFO] Booting worker with pid: 497
+[2022-12-28 11:42:14 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:497)
+[2022-12-28 11:42:14 +0000] [497] [INFO] Worker exiting (pid: 497)
+[2022-12-28 11:42:14 +0000] [500] [INFO] Booting worker with pid: 500
+[2022-12-28 11:59:59 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:500)
+[2022-12-28 11:59:59 +0000] [500] [INFO] Worker exiting (pid: 500)
+[2022-12-28 11:59:59 +0000] [503] [INFO] Booting worker with pid: 503
+[2022-12-28 15:27:58 +0000] [335] [CRITICAL] WORKER TIMEOUT (pid:503)
+[2022-12-28 15:27:58 +0000] [503] [INFO] Worker exiting (pid: 503)
+[2022-12-28 15:27:58 +0000] [506] [INFO] Booting worker with pid: 506
+[2022-12-28 15:47:12 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 15:47:12 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-28 15:47:12 +0000] [244] [INFO] Using worker: sync
+[2022-12-28 15:47:12 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 15:47:12 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-28 15:47:12 +0000] [243] [INFO] Using worker: sync
+[2022-12-28 15:47:12 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-28 15:47:12 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-28 15:47:50 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:249)
+[2022-12-28 15:47:50 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2022-12-28 15:47:50 +0000] [253] [INFO] Booting worker with pid: 253
+[2022-12-28 15:49:18 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:253)
+[2022-12-28 15:49:18 +0000] [253] [INFO] Worker exiting (pid: 253)
+[2022-12-28 15:49:19 +0000] [256] [INFO] Booting worker with pid: 256
+[2022-12-28 15:50:52 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:256)
+[2022-12-28 15:50:52 +0000] [256] [INFO] Worker exiting (pid: 256)
+[2022-12-28 15:50:52 +0000] [259] [INFO] Booting worker with pid: 259
+[2022-12-28 15:52:45 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:259)
+[2022-12-28 15:52:45 +0000] [259] [INFO] Worker exiting (pid: 259)
+[2022-12-28 15:52:45 +0000] [262] [INFO] Booting worker with pid: 262
+[2022-12-28 15:53:18 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:262)
+[2022-12-28 15:53:18 +0000] [262] [INFO] Worker exiting (pid: 262)
+[2022-12-28 15:53:18 +0000] [265] [INFO] Booting worker with pid: 265
+[2022-12-28 15:54:15 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:265)
+[2022-12-28 15:54:15 +0000] [265] [INFO] Worker exiting (pid: 265)
+[2022-12-28 15:54:15 +0000] [268] [INFO] Booting worker with pid: 268
+[2022-12-28 15:54:49 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:268)
+[2022-12-28 15:54:49 +0000] [268] [INFO] Worker exiting (pid: 268)
+[2022-12-28 15:54:49 +0000] [273] [INFO] Booting worker with pid: 273
+[2022-12-28 15:55:28 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:273)
+[2022-12-28 15:55:28 +0000] [273] [INFO] Worker exiting (pid: 273)
+[2022-12-28 15:55:28 +0000] [277] [INFO] Booting worker with pid: 277
+[2022-12-28 15:56:14 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:277)
+[2022-12-28 15:56:14 +0000] [277] [INFO] Worker exiting (pid: 277)
+[2022-12-28 15:56:14 +0000] [280] [INFO] Booting worker with pid: 280
+[2022-12-28 15:56:45 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:280)
+[2022-12-28 15:56:45 +0000] [280] [INFO] Worker exiting (pid: 280)
+[2022-12-28 15:56:45 +0000] [283] [INFO] Booting worker with pid: 283
+[2022-12-28 15:59:39 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:283)
+[2022-12-28 15:59:39 +0000] [283] [INFO] Worker exiting (pid: 283)
+[2022-12-28 15:59:39 +0000] [286] [INFO] Booting worker with pid: 286
+[2022-12-28 16:00:28 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:286)
+[2022-12-28 16:00:28 +0000] [286] [INFO] Worker exiting (pid: 286)
+[2022-12-28 16:00:28 +0000] [289] [INFO] Booting worker with pid: 289
+[2022-12-28 16:21:30 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:289)
+[2022-12-28 16:21:30 +0000] [289] [INFO] Worker exiting (pid: 289)
+[2022-12-28 16:21:30 +0000] [295] [INFO] Booting worker with pid: 295
+[2022-12-28 16:22:13 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:295)
+[2022-12-28 16:22:13 +0000] [295] [INFO] Worker exiting (pid: 295)
+[2022-12-28 16:22:13 +0000] [299] [INFO] Booting worker with pid: 299
+[2022-12-28 16:25:21 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:299)
+[2022-12-28 16:25:21 +0000] [299] [INFO] Worker exiting (pid: 299)
+[2022-12-28 16:25:22 +0000] [302] [INFO] Booting worker with pid: 302
+[2022-12-28 16:26:51 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:302)
+[2022-12-28 16:26:51 +0000] [302] [INFO] Worker exiting (pid: 302)
+[2022-12-28 16:26:51 +0000] [305] [INFO] Booting worker with pid: 305
+[2022-12-28 16:28:22 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:305)
+[2022-12-28 16:28:22 +0000] [305] [INFO] Worker exiting (pid: 305)
+[2022-12-28 16:28:22 +0000] [308] [INFO] Booting worker with pid: 308
+[2022-12-28 16:30:27 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:308)
+[2022-12-28 16:30:27 +0000] [308] [INFO] Worker exiting (pid: 308)
+[2022-12-28 16:30:27 +0000] [311] [INFO] Booting worker with pid: 311
+[2022-12-28 16:30:58 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:311)
+[2022-12-28 16:30:58 +0000] [311] [INFO] Worker exiting (pid: 311)
+[2022-12-28 16:30:58 +0000] [314] [INFO] Booting worker with pid: 314
+[2022-12-28 16:38:56 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:314)
+[2022-12-28 16:38:56 +0000] [314] [INFO] Worker exiting (pid: 314)
+[2022-12-28 16:38:56 +0000] [317] [INFO] Booting worker with pid: 317
+[2022-12-28 16:40:44 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:317)
+[2022-12-28 16:40:44 +0000] [317] [INFO] Worker exiting (pid: 317)
+[2022-12-28 16:40:44 +0000] [321] [INFO] Booting worker with pid: 321
+[2022-12-28 16:48:57 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:321)
+[2022-12-28 16:48:57 +0000] [321] [INFO] Worker exiting (pid: 321)
+[2022-12-28 16:48:57 +0000] [324] [INFO] Booting worker with pid: 324
+[2022-12-28 16:48:58 +0000] [324] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.5/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python3.5/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.5/site-packages/django/apps/registry.py", line 112, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.5/site-packages/django/apps/config.py", line 198, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/qa/models.py", line 16, in <module>
+    class Question(models.Model):
+  File "/home/box/web/ask/qa/models.py", line 21, in Question
+    author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
+NameError: name 'User' is not defined
+[2022-12-28 16:48:58 +0000] [324] [INFO] Worker exiting (pid: 324)
+[2022-12-28 16:48:58 +0000] [244] [INFO] Shutting down: Master
+[2022-12-28 16:48:58 +0000] [244] [INFO] Reason: Worker failed to boot.
+[2022-12-28 16:55:21 +0000] [241] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 16:55:21 +0000] [241] [INFO] Listening at: http://0.0.0.0:8000 (241)
+[2022-12-28 16:55:21 +0000] [241] [INFO] Using worker: sync
+[2022-12-28 16:55:21 +0000] [240] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 16:55:21 +0000] [240] [INFO] Listening at: http://0.0.0.0:8080 (240)
+[2022-12-28 16:55:21 +0000] [240] [INFO] Using worker: sync
+[2022-12-28 16:55:21 +0000] [246] [INFO] Booting worker with pid: 246
+[2022-12-28 16:55:21 +0000] [247] [INFO] Booting worker with pid: 247
+[2022-12-28 16:55:21 +0000] [246] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.5/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python3.5/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.5/site-packages/django/apps/registry.py", line 112, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.5/site-packages/django/apps/config.py", line 198, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/qa/models.py", line 17, in <module>
+    class Question(models.Model):
+  File "/home/box/web/ask/qa/models.py", line 22, in Question
+    author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
+NameError: name 'User' is not defined
+[2022-12-28 16:55:21 +0000] [246] [INFO] Worker exiting (pid: 246)
+[2022-12-28 16:55:21 +0000] [241] [INFO] Shutting down: Master
+[2022-12-28 16:55:21 +0000] [241] [INFO] Reason: Worker failed to boot.
+[2022-12-28 16:56:22 +0000] [290] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 16:56:22 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 16:56:22 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 16:56:22 +0000] [291] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 16:56:22 +0000] [291] [INFO] Listening at: http://0.0.0.0:8000 (291)
+[2022-12-28 16:56:22 +0000] [291] [INFO] Using worker: sync
+[2022-12-28 16:56:22 +0000] [296] [INFO] Booting worker with pid: 296
+[2022-12-28 16:56:23 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 16:56:23 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 16:56:24 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 16:56:24 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 16:56:25 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 16:56:25 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 16:56:26 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 16:56:26 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 16:56:27 +0000] [290] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 16:59:20 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:296)
+[2022-12-28 16:59:20 +0000] [296] [INFO] Worker exiting (pid: 296)
+[2022-12-28 16:59:20 +0000] [304] [INFO] Booting worker with pid: 304
+[2022-12-28 17:16:56 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:304)
+[2022-12-28 17:16:56 +0000] [304] [INFO] Worker exiting (pid: 304)
+[2022-12-28 17:16:56 +0000] [307] [INFO] Booting worker with pid: 307
+[2022-12-28 17:18:12 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:307)
+[2022-12-28 17:18:12 +0000] [307] [INFO] Worker exiting (pid: 307)
+[2022-12-28 17:18:12 +0000] [311] [INFO] Booting worker with pid: 311
+[2022-12-28 17:19:26 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:311)
+[2022-12-28 17:19:26 +0000] [311] [INFO] Worker exiting (pid: 311)
+[2022-12-28 17:19:26 +0000] [314] [INFO] Booting worker with pid: 314
+[2022-12-28 17:28:57 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:314)
+[2022-12-28 17:28:58 +0000] [314] [INFO] Worker exiting (pid: 314)
+[2022-12-28 17:28:58 +0000] [319] [INFO] Booting worker with pid: 319
+[2022-12-28 17:29:41 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:319)
+[2022-12-28 17:29:41 +0000] [319] [INFO] Worker exiting (pid: 319)
+[2022-12-28 17:29:41 +0000] [322] [INFO] Booting worker with pid: 322
+[2022-12-28 17:30:30 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:322)
+[2022-12-28 17:30:30 +0000] [322] [INFO] Worker exiting (pid: 322)
+[2022-12-28 17:30:30 +0000] [325] [INFO] Booting worker with pid: 325
+[2022-12-28 17:31:46 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:325)
+[2022-12-28 17:31:46 +0000] [325] [INFO] Worker exiting (pid: 325)
+[2022-12-28 17:31:46 +0000] [329] [INFO] Booting worker with pid: 329
+[2022-12-28 17:32:36 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:329)
+[2022-12-28 17:32:36 +0000] [329] [INFO] Worker exiting (pid: 329)
+[2022-12-28 17:32:37 +0000] [332] [INFO] Booting worker with pid: 332
+[2022-12-28 17:36:40 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:332)
+[2022-12-28 17:36:40 +0000] [332] [INFO] Worker exiting (pid: 332)
+[2022-12-28 17:36:40 +0000] [336] [INFO] Booting worker with pid: 336
+[2022-12-28 17:37:48 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:336)
+[2022-12-28 17:37:48 +0000] [336] [INFO] Worker exiting (pid: 336)
+[2022-12-28 17:37:48 +0000] [339] [INFO] Booting worker with pid: 339
+[2022-12-28 17:38:51 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:339)
+[2022-12-28 17:38:51 +0000] [339] [INFO] Worker exiting (pid: 339)
+[2022-12-28 17:38:51 +0000] [342] [INFO] Booting worker with pid: 342
+[2022-12-28 17:42:30 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:342)
+[2022-12-28 17:42:30 +0000] [342] [INFO] Worker exiting (pid: 342)
+[2022-12-28 17:42:30 +0000] [346] [INFO] Booting worker with pid: 346
+[2022-12-28 17:43:16 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:346)
+[2022-12-28 17:43:16 +0000] [346] [INFO] Worker exiting (pid: 346)
+[2022-12-28 17:43:16 +0000] [350] [INFO] Booting worker with pid: 350
+[2022-12-28 17:43:51 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:350)
+[2022-12-28 17:43:51 +0000] [350] [INFO] Worker exiting (pid: 350)
+[2022-12-28 17:43:51 +0000] [353] [INFO] Booting worker with pid: 353
+[2022-12-28 17:44:53 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:353)
+[2022-12-28 17:44:53 +0000] [353] [INFO] Worker exiting (pid: 353)
+[2022-12-28 17:44:53 +0000] [357] [INFO] Booting worker with pid: 357
+[2022-12-28 17:49:32 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:357)
+[2022-12-28 17:49:32 +0000] [357] [INFO] Worker exiting (pid: 357)
+[2022-12-28 17:49:32 +0000] [364] [INFO] Booting worker with pid: 364
+[2022-12-28 17:50:35 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:364)
+[2022-12-28 17:50:35 +0000] [364] [INFO] Worker exiting (pid: 364)
+[2022-12-28 17:50:35 +0000] [367] [INFO] Booting worker with pid: 367
+[2022-12-28 17:54:27 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:367)
+[2022-12-28 17:54:27 +0000] [367] [INFO] Worker exiting (pid: 367)
+[2022-12-28 17:54:27 +0000] [379] [INFO] Booting worker with pid: 379
+[2022-12-28 17:56:09 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:379)
+[2022-12-28 17:56:09 +0000] [379] [INFO] Worker exiting (pid: 379)
+[2022-12-28 17:56:09 +0000] [382] [INFO] Booting worker with pid: 382
+[2022-12-28 17:57:08 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:382)
+[2022-12-28 17:57:08 +0000] [382] [INFO] Worker exiting (pid: 382)
+[2022-12-28 17:57:08 +0000] [385] [INFO] Booting worker with pid: 385
+[2022-12-28 17:58:01 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:385)
+[2022-12-28 17:58:01 +0000] [385] [INFO] Worker exiting (pid: 385)
+[2022-12-28 17:58:01 +0000] [389] [INFO] Booting worker with pid: 389
+[2022-12-28 17:58:55 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:389)
+[2022-12-28 17:58:55 +0000] [389] [INFO] Worker exiting (pid: 389)
+[2022-12-28 17:58:55 +0000] [393] [INFO] Booting worker with pid: 393
+[2022-12-28 17:59:43 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:393)
+[2022-12-28 17:59:43 +0000] [393] [INFO] Worker exiting (pid: 393)
+[2022-12-28 17:59:43 +0000] [397] [INFO] Booting worker with pid: 397
+[2022-12-28 18:01:39 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:397)
+[2022-12-28 18:01:39 +0000] [397] [INFO] Worker exiting (pid: 397)
+[2022-12-28 18:01:39 +0000] [400] [INFO] Booting worker with pid: 400
+[2022-12-28 18:02:33 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:400)
+[2022-12-28 18:02:33 +0000] [400] [INFO] Worker exiting (pid: 400)
+[2022-12-28 18:02:33 +0000] [404] [INFO] Booting worker with pid: 404
+[2022-12-28 18:04:36 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:404)
+[2022-12-28 18:04:36 +0000] [404] [INFO] Worker exiting (pid: 404)
+[2022-12-28 18:04:36 +0000] [407] [INFO] Booting worker with pid: 407
+[2022-12-28 18:07:51 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:407)
+[2022-12-28 18:07:51 +0000] [407] [INFO] Worker exiting (pid: 407)
+[2022-12-28 18:07:51 +0000] [415] [INFO] Booting worker with pid: 415
+[2022-12-28 18:08:38 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:415)
+[2022-12-28 18:08:38 +0000] [415] [INFO] Worker exiting (pid: 415)
+[2022-12-28 18:08:38 +0000] [419] [INFO] Booting worker with pid: 419
+[2022-12-28 18:09:10 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:419)
+[2022-12-28 18:09:10 +0000] [419] [INFO] Worker exiting (pid: 419)
+[2022-12-28 18:09:10 +0000] [423] [INFO] Booting worker with pid: 423
+[2022-12-28 18:09:41 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:423)
+[2022-12-28 18:09:41 +0000] [423] [INFO] Worker exiting (pid: 423)
+[2022-12-28 18:09:41 +0000] [426] [INFO] Booting worker with pid: 426
+[2022-12-28 18:11:04 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:426)
+[2022-12-28 18:11:04 +0000] [426] [INFO] Worker exiting (pid: 426)
+[2022-12-28 18:11:04 +0000] [429] [INFO] Booting worker with pid: 429
+[2022-12-28 18:15:09 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:429)
+[2022-12-28 18:15:09 +0000] [429] [INFO] Worker exiting (pid: 429)
+[2022-12-28 18:15:09 +0000] [433] [INFO] Booting worker with pid: 433
+[2022-12-28 18:18:11 +0000] [291] [CRITICAL] WORKER TIMEOUT (pid:433)
+[2022-12-28 18:18:11 +0000] [433] [INFO] Worker exiting (pid: 433)
+[2022-12-28 18:18:11 +0000] [441] [INFO] Booting worker with pid: 441
+[2022-12-28 18:42:13 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 18:42:13 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 18:42:13 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-28 18:42:13 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-28 18:42:13 +0000] [244] [INFO] Using worker: sync
+[2022-12-28 18:42:13 +0000] [243] [INFO] Using worker: sync
+[2022-12-28 18:42:13 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-28 18:42:13 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-28 18:42:13 +0000] [249] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.5/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    return WSGIHandler()
+  File "/usr/local/lib/python3.5/site-packages/django/core/handlers/wsgi.py", line 140, in __init__
+    self.load_middleware()
+  File "/usr/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 37, in load_middleware
+    middleware = import_string(middleware_path)
+  File "/usr/local/lib/python3.5/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 658, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 724, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/qa/middleware.py", line 1
+    class CheckSessionMiidleware(class):
+                                     ^
+SyntaxError: invalid syntax
+[2022-12-28 18:42:13 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2022-12-28 18:42:13 +0000] [244] [INFO] Shutting down: Master
+[2022-12-28 18:42:13 +0000] [244] [INFO] Reason: Worker failed to boot.
+[2022-12-28 18:52:20 +0000] [293] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 18:52:20 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 18:52:20 +0000] [294] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 18:52:20 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-28 18:52:20 +0000] [294] [INFO] Listening at: http://0.0.0.0:8000 (294)
+[2022-12-28 18:52:20 +0000] [294] [INFO] Using worker: sync
+[2022-12-28 18:52:20 +0000] [299] [INFO] Booting worker with pid: 299
+[2022-12-28 18:52:21 +0000] [299] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.5/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/ask/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.5/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    return WSGIHandler()
+  File "/usr/local/lib/python3.5/site-packages/django/core/handlers/wsgi.py", line 140, in __init__
+    self.load_middleware()
+  File "/usr/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 37, in load_middleware
+    middleware = import_string(middleware_path)
+  File "/usr/local/lib/python3.5/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 658, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 724, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/box/web/ask/qa/middleware.py", line 1
+    class CheckSessionMiidleware(class):
+                                     ^
+SyntaxError: invalid syntax
+[2022-12-28 18:52:21 +0000] [299] [INFO] Worker exiting (pid: 299)
+[2022-12-28 18:52:21 +0000] [294] [INFO] Shutting down: Master
+[2022-12-28 18:52:21 +0000] [294] [INFO] Reason: Worker failed to boot.
+[2022-12-28 18:52:21 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 18:52:21 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-28 18:52:22 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 18:52:22 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-28 18:52:23 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 18:52:23 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-28 18:52:24 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 18:52:24 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-28 18:52:25 +0000] [293] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 19:19:54 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:19:54 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-28 19:19:54 +0000] [244] [INFO] Using worker: sync
+[2022-12-28 19:19:54 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:19:54 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-28 19:19:54 +0000] [243] [INFO] Using worker: sync
+[2022-12-28 19:19:54 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-28 19:19:54 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-28 19:20:40 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:249)
+[2022-12-28 19:20:40 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2022-12-28 19:20:40 +0000] [258] [INFO] Booting worker with pid: 258
+[2022-12-28 19:20:43 +0000] [296] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:20:43 +0000] [296] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:20:43 +0000] [296] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:43 +0000] [297] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:20:43 +0000] [297] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:20:43 +0000] [297] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:44 +0000] [296] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:20:44 +0000] [296] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:44 +0000] [297] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:20:44 +0000] [297] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:45 +0000] [296] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:20:45 +0000] [296] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:45 +0000] [297] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:20:45 +0000] [297] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:46 +0000] [296] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:20:46 +0000] [297] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:20:46 +0000] [296] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:46 +0000] [297] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:47 +0000] [297] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:20:47 +0000] [296] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:20:47 +0000] [297] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:47 +0000] [296] [ERROR] Retrying in 1 second.
+[2022-12-28 19:20:48 +0000] [297] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-28 19:20:48 +0000] [296] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 19:21:27 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:258)
+[2022-12-28 19:21:27 +0000] [258] [INFO] Worker exiting (pid: 258)
+[2022-12-28 19:21:27 +0000] [302] [INFO] Booting worker with pid: 302
+[2022-12-28 19:25:14 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:25:14 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-28 19:25:14 +0000] [244] [INFO] Using worker: sync
+[2022-12-28 19:25:14 +0000] [247] [INFO] Booting worker with pid: 247
+[2022-12-28 19:25:14 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:25:14 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-28 19:25:14 +0000] [243] [INFO] Using worker: sync
+[2022-12-28 19:25:14 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-28 19:25:53 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:247)
+[2022-12-28 19:25:53 +0000] [247] [INFO] Worker exiting (pid: 247)
+[2022-12-28 19:25:53 +0000] [253] [INFO] Booting worker with pid: 253
+[2022-12-28 19:53:32 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:53:32 +0000] [242] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:53:32 +0000] [243] [INFO] Listening at: http://0.0.0.0:8000 (243)
+[2022-12-28 19:53:32 +0000] [242] [INFO] Listening at: http://0.0.0.0:8080 (242)
+[2022-12-28 19:53:32 +0000] [243] [INFO] Using worker: sync
+[2022-12-28 19:53:32 +0000] [242] [INFO] Using worker: sync
+[2022-12-28 19:53:32 +0000] [248] [INFO] Booting worker with pid: 248
+[2022-12-28 19:53:32 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-28 19:56:43 +0000] [291] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:56:43 +0000] [291] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:56:43 +0000] [291] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:43 +0000] [290] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:56:43 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:56:43 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:44 +0000] [291] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:56:44 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:56:44 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:44 +0000] [291] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:45 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:56:45 +0000] [291] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:56:45 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:45 +0000] [291] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:46 +0000] [291] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:56:46 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:56:46 +0000] [291] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:46 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:47 +0000] [291] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:56:47 +0000] [290] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:56:47 +0000] [291] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:47 +0000] [290] [ERROR] Retrying in 1 second.
+[2022-12-28 19:56:48 +0000] [291] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-28 19:56:48 +0000] [290] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 19:57:18 +0000] [337] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:57:18 +0000] [337] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:57:18 +0000] [337] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:18 +0000] [336] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 19:57:18 +0000] [336] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:57:18 +0000] [336] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:19 +0000] [337] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:57:19 +0000] [337] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:19 +0000] [336] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:57:19 +0000] [336] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:20 +0000] [336] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:57:20 +0000] [337] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:57:20 +0000] [336] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:20 +0000] [337] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:21 +0000] [337] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:57:21 +0000] [336] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:57:21 +0000] [337] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:21 +0000] [336] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:22 +0000] [336] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 19:57:22 +0000] [337] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 19:57:22 +0000] [336] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:22 +0000] [337] [ERROR] Retrying in 1 second.
+[2022-12-28 19:57:23 +0000] [336] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 19:57:23 +0000] [337] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-28 19:58:02 +0000] [243] [CRITICAL] WORKER TIMEOUT (pid:248)
+[2022-12-28 19:58:02 +0000] [248] [INFO] Worker exiting (pid: 248)
+[2022-12-28 19:58:02 +0000] [342] [INFO] Booting worker with pid: 342
+[2022-12-28 20:05:37 +0000] [243] [CRITICAL] WORKER TIMEOUT (pid:342)
+[2022-12-28 20:05:37 +0000] [342] [INFO] Worker exiting (pid: 342)
+[2022-12-28 20:05:37 +0000] [349] [INFO] Booting worker with pid: 349
+[2022-12-28 20:07:35 +0000] [243] [CRITICAL] WORKER TIMEOUT (pid:349)
+[2022-12-28 20:07:35 +0000] [349] [INFO] Worker exiting (pid: 349)
+[2022-12-28 20:07:35 +0000] [352] [INFO] Booting worker with pid: 352
+[2022-12-28 20:08:17 +0000] [243] [CRITICAL] WORKER TIMEOUT (pid:352)
+[2022-12-28 20:08:17 +0000] [352] [INFO] Worker exiting (pid: 352)
+[2022-12-28 20:08:17 +0000] [355] [INFO] Booting worker with pid: 355
+[2022-12-28 20:11:04 +0000] [245] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:11:04 +0000] [245] [INFO] Listening at: http://0.0.0.0:8000 (245)
+[2022-12-28 20:11:04 +0000] [245] [INFO] Using worker: sync
+[2022-12-28 20:11:04 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:11:04 +0000] [244] [INFO] Listening at: http://0.0.0.0:8080 (244)
+[2022-12-28 20:11:04 +0000] [244] [INFO] Using worker: sync
+[2022-12-28 20:11:04 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-28 20:11:04 +0000] [251] [INFO] Booting worker with pid: 251
+[2022-12-28 20:11:41 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:250)
+[2022-12-28 20:11:41 +0000] [250] [INFO] Worker exiting (pid: 250)
+[2022-12-28 20:11:41 +0000] [254] [INFO] Booting worker with pid: 254
+[2022-12-28 20:12:15 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:254)
+[2022-12-28 20:12:15 +0000] [254] [INFO] Worker exiting (pid: 254)
+[2022-12-28 20:12:15 +0000] [257] [INFO] Booting worker with pid: 257
+[2022-12-28 20:13:09 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:257)
+[2022-12-28 20:13:09 +0000] [257] [INFO] Worker exiting (pid: 257)
+[2022-12-28 20:13:09 +0000] [261] [INFO] Booting worker with pid: 261
+[2022-12-28 20:14:53 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:261)
+[2022-12-28 20:14:53 +0000] [261] [INFO] Worker exiting (pid: 261)
+[2022-12-28 20:14:53 +0000] [265] [INFO] Booting worker with pid: 265
+[2022-12-28 20:15:26 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:265)
+[2022-12-28 20:15:26 +0000] [265] [INFO] Worker exiting (pid: 265)
+[2022-12-28 20:15:26 +0000] [270] [INFO] Booting worker with pid: 270
+[2022-12-28 20:16:02 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:270)
+[2022-12-28 20:16:02 +0000] [270] [INFO] Worker exiting (pid: 270)
+[2022-12-28 20:16:02 +0000] [273] [INFO] Booting worker with pid: 273
+[2022-12-28 20:17:58 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:273)
+[2022-12-28 20:17:58 +0000] [273] [INFO] Worker exiting (pid: 273)
+[2022-12-28 20:17:58 +0000] [276] [INFO] Booting worker with pid: 276
+[2022-12-28 20:18:30 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:276)
+[2022-12-28 20:18:30 +0000] [276] [INFO] Worker exiting (pid: 276)
+[2022-12-28 20:18:31 +0000] [279] [INFO] Booting worker with pid: 279
+[2022-12-28 20:20:10 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:279)
+[2022-12-28 20:20:10 +0000] [279] [INFO] Worker exiting (pid: 279)
+[2022-12-28 20:20:10 +0000] [282] [INFO] Booting worker with pid: 282
+[2022-12-28 20:20:58 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:282)
+[2022-12-28 20:20:58 +0000] [282] [INFO] Worker exiting (pid: 282)
+[2022-12-28 20:20:58 +0000] [285] [INFO] Booting worker with pid: 285
+[2022-12-28 20:22:24 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:22:24 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-28 20:22:24 +0000] [244] [INFO] Using worker: sync
+[2022-12-28 20:22:24 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:22:24 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-28 20:22:24 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-28 20:22:24 +0000] [243] [INFO] Using worker: sync
+[2022-12-28 20:22:24 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-28 20:23:10 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:249)
+[2022-12-28 20:23:10 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2022-12-28 20:23:10 +0000] [253] [INFO] Booting worker with pid: 253
+[2022-12-28 20:24:40 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:253)
+[2022-12-28 20:24:40 +0000] [253] [INFO] Worker exiting (pid: 253)
+[2022-12-28 20:24:40 +0000] [256] [INFO] Booting worker with pid: 256
+[2022-12-28 20:25:16 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:256)
+[2022-12-28 20:25:16 +0000] [256] [INFO] Worker exiting (pid: 256)
+[2022-12-28 20:25:16 +0000] [259] [INFO] Booting worker with pid: 259
+[2022-12-28 20:26:19 +0000] [303] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:26:19 +0000] [303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 20:26:19 +0000] [303] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:19 +0000] [302] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:26:19 +0000] [302] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 20:26:19 +0000] [302] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:20 +0000] [303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 20:26:20 +0000] [302] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 20:26:20 +0000] [303] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:20 +0000] [302] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:21 +0000] [303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 20:26:21 +0000] [302] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 20:26:21 +0000] [303] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:21 +0000] [302] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:22 +0000] [302] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 20:26:22 +0000] [303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 20:26:22 +0000] [302] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:22 +0000] [303] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:23 +0000] [302] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-28 20:26:23 +0000] [303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-28 20:26:23 +0000] [302] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:23 +0000] [303] [ERROR] Retrying in 1 second.
+[2022-12-28 20:26:24 +0000] [303] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-28 20:26:24 +0000] [302] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-28 20:26:31 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:259)
+[2022-12-28 20:26:31 +0000] [259] [INFO] Worker exiting (pid: 259)
+[2022-12-28 20:26:31 +0000] [308] [INFO] Booting worker with pid: 308
+[2022-12-28 20:27:16 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:308)
+[2022-12-28 20:27:16 +0000] [308] [INFO] Worker exiting (pid: 308)
+[2022-12-28 20:27:16 +0000] [311] [INFO] Booting worker with pid: 311
+[2022-12-28 20:28:44 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:311)
+[2022-12-28 20:28:44 +0000] [311] [INFO] Worker exiting (pid: 311)
+[2022-12-28 20:28:44 +0000] [314] [INFO] Booting worker with pid: 314
+[2022-12-28 20:29:56 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:314)
+[2022-12-28 20:29:56 +0000] [314] [INFO] Worker exiting (pid: 314)
+[2022-12-28 20:29:56 +0000] [317] [INFO] Booting worker with pid: 317
+[2022-12-28 20:35:10 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:317)
+[2022-12-28 20:35:10 +0000] [317] [INFO] Worker exiting (pid: 317)
+[2022-12-28 20:35:10 +0000] [320] [INFO] Booting worker with pid: 320
+[2022-12-28 20:35:50 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:320)
+[2022-12-28 20:35:50 +0000] [320] [INFO] Worker exiting (pid: 320)
+[2022-12-28 20:35:50 +0000] [325] [INFO] Booting worker with pid: 325
+[2022-12-28 20:37:05 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:325)
+[2022-12-28 20:37:05 +0000] [325] [INFO] Worker exiting (pid: 325)
+[2022-12-28 20:37:06 +0000] [329] [INFO] Booting worker with pid: 329
+[2022-12-28 20:38:38 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:329)
+[2022-12-28 20:38:38 +0000] [329] [INFO] Worker exiting (pid: 329)
+[2022-12-28 20:38:38 +0000] [333] [INFO] Booting worker with pid: 333
+[2022-12-28 20:39:35 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:333)
+[2022-12-28 20:39:35 +0000] [333] [INFO] Worker exiting (pid: 333)
+[2022-12-28 20:39:35 +0000] [339] [INFO] Booting worker with pid: 339
+[2022-12-28 20:41:49 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:339)
+[2022-12-28 20:41:50 +0000] [339] [INFO] Worker exiting (pid: 339)
+[2022-12-28 20:41:50 +0000] [344] [INFO] Booting worker with pid: 344
+[2022-12-28 20:44:08 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:344)
+[2022-12-28 20:44:08 +0000] [344] [INFO] Worker exiting (pid: 344)
+[2022-12-28 20:44:08 +0000] [349] [INFO] Booting worker with pid: 349
+[2022-12-28 20:44:51 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:349)
+[2022-12-28 20:44:51 +0000] [349] [INFO] Worker exiting (pid: 349)
+[2022-12-28 20:44:51 +0000] [352] [INFO] Booting worker with pid: 352
+[2022-12-28 20:56:29 +0000] [246] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:56:29 +0000] [246] [INFO] Listening at: http://0.0.0.0:8000 (246)
+[2022-12-28 20:56:29 +0000] [245] [INFO] Starting gunicorn 20.1.0
+[2022-12-28 20:56:29 +0000] [246] [INFO] Using worker: sync
+[2022-12-28 20:56:29 +0000] [245] [INFO] Listening at: http://0.0.0.0:8080 (245)
+[2022-12-28 20:56:29 +0000] [245] [INFO] Using worker: sync
+[2022-12-28 20:56:29 +0000] [251] [INFO] Booting worker with pid: 251
+[2022-12-28 20:56:29 +0000] [252] [INFO] Booting worker with pid: 252
+[2022-12-28 20:57:19 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:251)
+[2022-12-28 20:57:19 +0000] [251] [INFO] Worker exiting (pid: 251)
+[2022-12-28 20:57:19 +0000] [255] [INFO] Booting worker with pid: 255
+[2022-12-28 20:58:15 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:255)
+[2022-12-28 20:58:15 +0000] [255] [INFO] Worker exiting (pid: 255)
+[2022-12-28 20:58:16 +0000] [259] [INFO] Booting worker with pid: 259
+[2022-12-28 20:58:58 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:259)
+[2022-12-28 20:58:58 +0000] [259] [INFO] Worker exiting (pid: 259)
+[2022-12-28 20:58:58 +0000] [262] [INFO] Booting worker with pid: 262
+[2022-12-28 20:59:44 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:262)
+[2022-12-28 20:59:44 +0000] [262] [INFO] Worker exiting (pid: 262)
+[2022-12-28 20:59:44 +0000] [267] [INFO] Booting worker with pid: 267
+[2022-12-28 21:16:24 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:267)
+[2022-12-28 21:16:24 +0000] [267] [INFO] Worker exiting (pid: 267)
+[2022-12-28 21:16:24 +0000] [270] [INFO] Booting worker with pid: 270
+[2022-12-28 21:17:18 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:270)
+[2022-12-28 21:17:18 +0000] [270] [INFO] Worker exiting (pid: 270)
+[2022-12-28 21:17:18 +0000] [275] [INFO] Booting worker with pid: 275
+[2022-12-28 21:17:56 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:275)
+[2022-12-28 21:17:56 +0000] [275] [INFO] Worker exiting (pid: 275)
+[2022-12-28 21:17:56 +0000] [280] [INFO] Booting worker with pid: 280
+[2022-12-28 21:22:03 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:280)
+[2022-12-28 21:22:03 +0000] [280] [INFO] Worker exiting (pid: 280)
+[2022-12-28 21:22:03 +0000] [285] [INFO] Booting worker with pid: 285
+[2022-12-28 21:24:04 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:285)
+[2022-12-28 21:24:04 +0000] [285] [INFO] Worker exiting (pid: 285)
+[2022-12-28 21:24:04 +0000] [288] [INFO] Booting worker with pid: 288
+[2022-12-28 21:35:50 +0000] [246] [CRITICAL] WORKER TIMEOUT (pid:288)
+[2022-12-28 21:35:50 +0000] [288] [INFO] Worker exiting (pid: 288)
+[2022-12-28 21:35:50 +0000] [293] [INFO] Booting worker with pid: 293
+[2022-12-29 09:27:59 +0000] [156] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 09:27:59 +0000] [155] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 09:27:59 +0000] [156] [INFO] Listening at: http://0.0.0.0:8000 (156)
+[2022-12-29 09:27:59 +0000] [155] [INFO] Listening at: http://0.0.0.0:8080 (155)
+[2022-12-29 09:27:59 +0000] [156] [INFO] Using worker: sync
+[2022-12-29 09:27:59 +0000] [155] [INFO] Using worker: sync
+[2022-12-29 09:27:59 +0000] [161] [INFO] Booting worker with pid: 161
+[2022-12-29 09:27:59 +0000] [162] [INFO] Booting worker with pid: 162
+[2022-12-29 09:28:49 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:161)
+[2022-12-29 09:28:49 +0000] [161] [INFO] Worker exiting (pid: 161)
+[2022-12-29 09:28:49 +0000] [165] [INFO] Booting worker with pid: 165
+[2022-12-29 09:29:41 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:165)
+[2022-12-29 09:29:41 +0000] [165] [INFO] Worker exiting (pid: 165)
+[2022-12-29 09:29:41 +0000] [168] [INFO] Booting worker with pid: 168
+[2022-12-29 09:34:48 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:168)
+[2022-12-29 09:34:48 +0000] [168] [INFO] Worker exiting (pid: 168)
+[2022-12-29 09:34:48 +0000] [173] [INFO] Booting worker with pid: 173
+[2022-12-29 09:35:25 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:173)
+[2022-12-29 09:35:25 +0000] [173] [INFO] Worker exiting (pid: 173)
+[2022-12-29 09:35:25 +0000] [178] [INFO] Booting worker with pid: 178
+[2022-12-29 09:36:58 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:178)
+[2022-12-29 09:36:58 +0000] [178] [INFO] Worker exiting (pid: 178)
+[2022-12-29 09:36:58 +0000] [181] [INFO] Booting worker with pid: 181
+[2022-12-29 09:38:03 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:181)
+[2022-12-29 09:38:03 +0000] [181] [INFO] Worker exiting (pid: 181)
+[2022-12-29 09:38:03 +0000] [184] [INFO] Booting worker with pid: 184
+[2022-12-29 09:39:16 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:184)
+[2022-12-29 09:39:16 +0000] [184] [INFO] Worker exiting (pid: 184)
+[2022-12-29 09:39:16 +0000] [187] [INFO] Booting worker with pid: 187
+[2022-12-29 09:40:10 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:187)
+[2022-12-29 09:40:10 +0000] [187] [INFO] Worker exiting (pid: 187)
+[2022-12-29 09:40:10 +0000] [193] [INFO] Booting worker with pid: 193
+[2022-12-29 09:41:41 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:193)
+[2022-12-29 09:41:41 +0000] [193] [INFO] Worker exiting (pid: 193)
+[2022-12-29 09:41:41 +0000] [196] [INFO] Booting worker with pid: 196
+[2022-12-29 09:42:56 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:196)
+[2022-12-29 09:42:56 +0000] [196] [INFO] Worker exiting (pid: 196)
+[2022-12-29 09:42:56 +0000] [199] [INFO] Booting worker with pid: 199
+[2022-12-29 09:45:45 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:199)
+[2022-12-29 09:45:45 +0000] [199] [INFO] Worker exiting (pid: 199)
+[2022-12-29 09:45:45 +0000] [202] [INFO] Booting worker with pid: 202
+[2022-12-29 09:46:32 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:202)
+[2022-12-29 09:46:32 +0000] [202] [INFO] Worker exiting (pid: 202)
+[2022-12-29 09:46:32 +0000] [207] [INFO] Booting worker with pid: 207
+[2022-12-29 09:48:35 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:207)
+[2022-12-29 09:48:35 +0000] [207] [INFO] Worker exiting (pid: 207)
+[2022-12-29 09:48:35 +0000] [211] [INFO] Booting worker with pid: 211
+[2022-12-29 09:49:24 +0000] [156] [CRITICAL] WORKER TIMEOUT (pid:211)
+[2022-12-29 09:49:24 +0000] [211] [INFO] Worker exiting (pid: 211)
+[2022-12-29 09:49:24 +0000] [216] [INFO] Booting worker with pid: 216
+[2022-12-29 09:57:41 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 09:57:41 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-29 09:57:41 +0000] [244] [INFO] Using worker: sync
+[2022-12-29 09:57:41 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-29 09:57:41 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 09:57:41 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-29 09:57:41 +0000] [243] [INFO] Using worker: sync
+[2022-12-29 09:57:41 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-29 09:58:25 +0000] [293] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 09:58:25 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-29 09:58:25 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:25 +0000] [294] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 09:58:25 +0000] [294] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-29 09:58:25 +0000] [294] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:26 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-29 09:58:26 +0000] [294] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-29 09:58:26 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:26 +0000] [294] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:27 +0000] [294] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-29 09:58:27 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-29 09:58:27 +0000] [294] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:27 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:28 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-29 09:58:28 +0000] [294] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-29 09:58:28 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:28 +0000] [294] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:29 +0000] [294] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2022-12-29 09:58:29 +0000] [293] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2022-12-29 09:58:29 +0000] [294] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:29 +0000] [293] [ERROR] Retrying in 1 second.
+[2022-12-29 09:58:30 +0000] [294] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2022-12-29 09:58:30 +0000] [293] [ERROR] Can't connect to ('0.0.0.0', 8080)
+[2022-12-29 10:03:22 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:03:22 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-29 10:03:22 +0000] [244] [INFO] Using worker: sync
+[2022-12-29 10:03:22 +0000] [247] [INFO] Booting worker with pid: 247
+[2022-12-29 10:03:22 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:03:22 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-29 10:03:22 +0000] [243] [INFO] Using worker: sync
+[2022-12-29 10:03:22 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-29 10:04:12 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:247)
+[2022-12-29 10:04:12 +0000] [247] [INFO] Worker exiting (pid: 247)
+[2022-12-29 10:04:12 +0000] [256] [INFO] Booting worker with pid: 256
+[2022-12-29 10:04:55 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:256)
+[2022-12-29 10:04:55 +0000] [256] [INFO] Worker exiting (pid: 256)
+[2022-12-29 10:04:55 +0000] [259] [INFO] Booting worker with pid: 259
+[2022-12-29 10:06:47 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:259)
+[2022-12-29 10:06:47 +0000] [259] [INFO] Worker exiting (pid: 259)
+[2022-12-29 10:06:47 +0000] [262] [INFO] Booting worker with pid: 262
+[2022-12-29 10:08:25 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:262)
+[2022-12-29 10:08:25 +0000] [262] [INFO] Worker exiting (pid: 262)
+[2022-12-29 10:08:25 +0000] [265] [INFO] Booting worker with pid: 265
+[2022-12-29 10:12:22 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:12:22 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-29 10:12:22 +0000] [244] [INFO] Using worker: sync
+[2022-12-29 10:12:22 +0000] [247] [INFO] Booting worker with pid: 247
+[2022-12-29 10:12:22 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:12:22 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-29 10:12:22 +0000] [243] [INFO] Using worker: sync
+[2022-12-29 10:12:22 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-29 10:13:18 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:247)
+[2022-12-29 10:13:18 +0000] [247] [INFO] Worker exiting (pid: 247)
+[2022-12-29 10:13:18 +0000] [254] [INFO] Booting worker with pid: 254
+[2022-12-29 10:18:35 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:254)
+[2022-12-29 10:18:35 +0000] [254] [INFO] Worker exiting (pid: 254)
+[2022-12-29 10:18:35 +0000] [257] [INFO] Booting worker with pid: 257
+[2022-12-29 10:20:26 +0000] [245] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:20:26 +0000] [245] [INFO] Listening at: http://0.0.0.0:8000 (245)
+[2022-12-29 10:20:26 +0000] [245] [INFO] Using worker: sync
+[2022-12-29 10:20:26 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:20:26 +0000] [244] [INFO] Listening at: http://0.0.0.0:8080 (244)
+[2022-12-29 10:20:26 +0000] [244] [INFO] Using worker: sync
+[2022-12-29 10:20:26 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-29 10:20:26 +0000] [251] [INFO] Booting worker with pid: 251
+[2022-12-29 10:21:04 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:250)
+[2022-12-29 10:21:04 +0000] [250] [INFO] Worker exiting (pid: 250)
+[2022-12-29 10:21:05 +0000] [254] [INFO] Booting worker with pid: 254
+[2022-12-29 10:21:48 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:254)
+[2022-12-29 10:21:48 +0000] [254] [INFO] Worker exiting (pid: 254)
+[2022-12-29 10:21:48 +0000] [258] [INFO] Booting worker with pid: 258
+[2022-12-29 10:22:22 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:258)
+[2022-12-29 10:22:22 +0000] [258] [INFO] Worker exiting (pid: 258)
+[2022-12-29 10:22:22 +0000] [261] [INFO] Booting worker with pid: 261
+[2022-12-29 10:23:14 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:261)
+[2022-12-29 10:23:14 +0000] [261] [INFO] Worker exiting (pid: 261)
+[2022-12-29 10:23:14 +0000] [264] [INFO] Booting worker with pid: 264
+[2022-12-29 10:25:10 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:25:10 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-29 10:25:10 +0000] [244] [INFO] Using worker: sync
+[2022-12-29 10:25:10 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:25:10 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-29 10:25:10 +0000] [243] [INFO] Using worker: sync
+[2022-12-29 10:25:10 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-29 10:25:10 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-29 10:26:04 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:249)
+[2022-12-29 10:26:04 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2022-12-29 10:26:04 +0000] [253] [INFO] Booting worker with pid: 253
+[2022-12-29 10:26:42 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:253)
+[2022-12-29 10:26:42 +0000] [253] [INFO] Worker exiting (pid: 253)
+[2022-12-29 10:26:42 +0000] [257] [INFO] Booting worker with pid: 257
+[2022-12-29 10:27:45 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:257)
+[2022-12-29 10:27:45 +0000] [257] [INFO] Worker exiting (pid: 257)
+[2022-12-29 10:27:46 +0000] [260] [INFO] Booting worker with pid: 260
+[2022-12-29 10:28:32 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:260)
+[2022-12-29 10:28:32 +0000] [260] [INFO] Worker exiting (pid: 260)
+[2022-12-29 10:28:32 +0000] [263] [INFO] Booting worker with pid: 263
+[2022-12-29 10:31:58 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:263)
+[2022-12-29 10:31:58 +0000] [263] [INFO] Worker exiting (pid: 263)
+[2022-12-29 10:31:58 +0000] [266] [INFO] Booting worker with pid: 266
+[2022-12-29 10:32:59 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:266)
+[2022-12-29 10:32:59 +0000] [266] [INFO] Worker exiting (pid: 266)
+[2022-12-29 10:32:59 +0000] [269] [INFO] Booting worker with pid: 269
+[2022-12-29 10:34:11 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:269)
+[2022-12-29 10:34:11 +0000] [269] [INFO] Worker exiting (pid: 269)
+[2022-12-29 10:34:11 +0000] [272] [INFO] Booting worker with pid: 272
+[2022-12-29 10:35:56 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:272)
+[2022-12-29 10:35:56 +0000] [272] [INFO] Worker exiting (pid: 272)
+[2022-12-29 10:35:56 +0000] [277] [INFO] Booting worker with pid: 277
+[2022-12-29 10:36:35 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:277)
+[2022-12-29 10:36:35 +0000] [277] [INFO] Worker exiting (pid: 277)
+[2022-12-29 10:36:35 +0000] [282] [INFO] Booting worker with pid: 282
+[2022-12-29 10:46:32 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:46:32 +0000] [243] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 10:46:32 +0000] [244] [INFO] Listening at: http://0.0.0.0:8000 (244)
+[2022-12-29 10:46:32 +0000] [243] [INFO] Listening at: http://0.0.0.0:8080 (243)
+[2022-12-29 10:46:32 +0000] [244] [INFO] Using worker: sync
+[2022-12-29 10:46:32 +0000] [243] [INFO] Using worker: sync
+[2022-12-29 10:46:32 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-29 10:46:32 +0000] [249] [INFO] Booting worker with pid: 249
+[2022-12-29 10:47:12 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:249)
+[2022-12-29 10:47:12 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2022-12-29 10:47:12 +0000] [253] [INFO] Booting worker with pid: 253
+[2022-12-29 10:53:48 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:253)
+[2022-12-29 10:53:48 +0000] [253] [INFO] Worker exiting (pid: 253)
+[2022-12-29 10:53:48 +0000] [257] [INFO] Booting worker with pid: 257
+[2022-12-29 10:54:55 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:257)
+[2022-12-29 10:54:55 +0000] [257] [INFO] Worker exiting (pid: 257)
+[2022-12-29 10:54:56 +0000] [260] [INFO] Booting worker with pid: 260
+[2022-12-29 10:58:14 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:260)
+[2022-12-29 10:58:14 +0000] [260] [INFO] Worker exiting (pid: 260)
+[2022-12-29 10:58:14 +0000] [263] [INFO] Booting worker with pid: 263
+[2022-12-29 10:58:49 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:263)
+[2022-12-29 10:58:49 +0000] [263] [INFO] Worker exiting (pid: 263)
+[2022-12-29 10:58:49 +0000] [266] [INFO] Booting worker with pid: 266
+[2022-12-29 13:04:24 +0000] [244] [CRITICAL] WORKER TIMEOUT (pid:266)
+[2022-12-29 13:04:24 +0000] [266] [INFO] Worker exiting (pid: 266)
+[2022-12-29 13:04:24 +0000] [269] [INFO] Booting worker with pid: 269
+[2022-12-29 13:44:40 +0000] [245] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 13:44:40 +0000] [245] [INFO] Listening at: http://0.0.0.0:8000 (245)
+[2022-12-29 13:44:40 +0000] [245] [INFO] Using worker: sync
+[2022-12-29 13:44:40 +0000] [244] [INFO] Starting gunicorn 20.1.0
+[2022-12-29 13:44:40 +0000] [244] [INFO] Listening at: http://0.0.0.0:8080 (244)
+[2022-12-29 13:44:40 +0000] [244] [INFO] Using worker: sync
+[2022-12-29 13:44:40 +0000] [250] [INFO] Booting worker with pid: 250
+[2022-12-29 13:44:40 +0000] [251] [INFO] Booting worker with pid: 251
+[2022-12-29 13:45:28 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:250)
+[2022-12-29 13:45:28 +0000] [250] [INFO] Worker exiting (pid: 250)
+[2022-12-29 13:45:28 +0000] [254] [INFO] Booting worker with pid: 254
+[2022-12-29 13:46:18 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:254)
+[2022-12-29 13:46:18 +0000] [254] [INFO] Worker exiting (pid: 254)
+[2022-12-29 13:46:18 +0000] [257] [INFO] Booting worker with pid: 257
+[2022-12-29 13:47:01 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:257)
+[2022-12-29 13:47:01 +0000] [257] [INFO] Worker exiting (pid: 257)
+[2022-12-29 13:47:01 +0000] [266] [INFO] Booting worker with pid: 266
+[2022-12-29 13:48:30 +0000] [245] [CRITICAL] WORKER TIMEOUT (pid:266)
+[2022-12-29 13:48:30 +0000] [266] [INFO] Worker exiting (pid: 266)
+[2022-12-29 13:48:30 +0000] [269] [INFO] Booting worker with pid: 269

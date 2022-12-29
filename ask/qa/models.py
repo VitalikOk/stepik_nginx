@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+
 from django.urls import reverse
 
 
@@ -13,6 +14,7 @@ class QuestionManager(models.Manager):
     def question(self, qid):
         return self.filter(id=qid)
         
+        
 class Question(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
@@ -23,7 +25,6 @@ class Question(models.Model):
     objects = QuestionManager() 
     
 
-    
     def __unicode__(self):
         return self.title
     
@@ -42,6 +43,6 @@ class Answer(models.Model):
     question = models.ForeignKey(Question, null=True, related_name='answer_set', on_delete=models.SET_NULL)
     author = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     
+    
     def __unicode__(self):
         return self.text
-    

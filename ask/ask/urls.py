@@ -19,15 +19,17 @@ import qa.views as qa
 
 
 urlpatterns = [
-   url(r'^$', qa.new, name='new'),                                                              
-#    url(r'^login/.*$', qa.login, name='login'),                                    
-#    url(r'^signup/.*', qa.signup, name='signup'),                                   
-   url(r'^question/(?P<id>[0-9]+)/$', qa.question, name='question'),                 
+    url(r'^$', qa.new, name='new'),                                                              
+    url(r'^signin/.*$', qa.signin, name='signin'),                                    
+    url(r'^signup/.*', qa.signup, name='signup'),                                   
+    url(r'^logoff/.*', qa.logoff, name='logoff'), 
+    url(r'^question/(?P<id>[0-9]+)/$', qa.question, name='question'),                 
 #    url(r'^ask/.*', qa.ask, name='ask'),                                         
-   url(r'^popular/.*', qa.popular, name='popular'),                                 
-   url(r'^new/.*', qa.new, name='new'),                                          
-   url(r'^ask/', qa.ask, name='ask'),   
-   url(r'^init/', qa.init, name='init'),  
+    url(r'^popular/.*', qa.popular, name='popular'),                                 
+    url(r'^new/.*', qa.new, name='new'),                                          
+    url(r'^ask/', qa.ask, name='ask'),   
+    url(r'^init/', qa.init, name='init'),  
+    url(r'^test/', qa.test, name='test'),  
 ]
 
 

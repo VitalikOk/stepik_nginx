@@ -5,3 +5,4 @@ nginxask/dockerfile
 docker_init.sh
 server_l13.py
 ./ask/server_l13.py
+qa/migrations

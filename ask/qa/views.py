@@ -3,8 +3,10 @@ from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
 from django.views.decorators.http import require_GET, require_http_methods
 from qa.models import Question, Answer
-from qa.forms import AskForm, AnswerForm
+from qa.forms import AskForm, AnswerForm, SignupForm, SigninForm
 from django.core.paginator import Paginator, EmptyPage
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 
 from django.contrib.auth.models import User
 from django.db.models import Max
@@ -70,6 +72,7 @@ def init(request):
     })
 
 @require_GET
+@login_required(login_url='/signin/')
 def new(request):
     
     paginator = paginate(request, Question.objects.new())    
@@ -79,6 +82,7 @@ def new(request):
     })
 
 @require_GET
+@login_required(login_url='/signin/')
 def popular(request):
     
     paginator = paginate(request, Question.objects.popular())    
@@ -89,6 +93,7 @@ def popular(request):
 
 @csrf_exempt
 @require_http_methods(["GET", "POST"])
+@login_required(login_url='/signin/')
 def question(request, *args, **kwargs):
     id = 0
     try:
@@ -116,6 +121,7 @@ def question(request, *args, **kwargs):
     
 @csrf_exempt    
 @require_http_methods(["GET", "POST"])
+@login_required(login_url='/signin/')
 def ask(request):
     if request.method == "POST":
         form = AskForm(request.POST)
@@ -128,3 +134,66 @@ def ask(request):
     return render(request, 'qa/ask.html', {
         'form': form
 })
+    
+@csrf_exempt    
+@require_http_methods(["GET", "POST"])
+def signup(request):
+    error = ''
+    if request.method == "POST":
+        form = SignupForm(request.POST)
+        if form.is_valid():
+            try:
+                user = form.save()
+                login(request, user)
+                return HttpResponseRedirect('/')
+            except Exception as e:
+                e_args = str(e).strip('()').split(',')
+                if e_args[0] == '1062':
+                    error = 'Пользователь уже существует'
+                else:
+                    error = ' Ошибка: ' + e_args[1]
+        else:
+            error = 'Не проканало'
+    else:
+        form = SignupForm()
+    return render(request, 'qa/signup.html', {
+        'form': form,
+        'error': error,
+        'url': 'signup',
+                }
+            )
+    
+        
+    
+@csrf_exempt    
+@require_http_methods(["GET", "POST"])
+def signin(request):
+    error = ''
+    logout(request)
+    if request.method == "POST":
+        form = SigninForm(request.POST)
+        if form.is_valid():
+            user = authenticate(
+                request,
+                username=request.POST.get('username', False),
+                password=request.POST.get('password', False),
+            )
+            if user is not None:
+                login(request, user)
+                return HttpResponseRedirect('/')
+            else:
+                error = 'Username or password is incorrect'
+        else:
+            error = 'Не проканало'
+    else:
+        form = SigninForm()
+    return render(request, 'qa/signup.html', {
+        'form': form,
+        'error': error,
+        'url': 'signin',
+            }
+        )
+    
+def logoff(request, *args, **kwargs):
+    logout(request)
+    return HttpResponseRedirect('/')
