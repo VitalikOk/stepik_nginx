@@ -93,7 +93,7 @@ def popular(request):
 
 @csrf_exempt
 @require_http_methods(["GET", "POST"])
-@login_required(login_url='/login/')
+# @login_required(login_url='/login/')
 def question(request, *args, **kwargs):
     id = 0
     try:

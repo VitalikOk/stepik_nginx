@@ -29,7 +29,10 @@ class AskForm(forms.Form):
     
     def clean_author(self):
         author = self.cleaned_data['author']
-        author = User.objects.get(username=author)
+        try:
+            author = User.objects.get(username=author)
+        except:
+            return None
         return author    
             
 
@@ -50,8 +53,11 @@ class AnswerForm(forms.Form):
             
     def clean_author(self):
         author = self.cleaned_data['author']
-        author = User.objects.get(username=author)
-        return author   
+        try:
+            author = User.objects.get(username=author)
+        except:
+            return None
+        return author    
             
     def save(self):
         question = Question.objects.get(id=self.cleaned_data['question'])
