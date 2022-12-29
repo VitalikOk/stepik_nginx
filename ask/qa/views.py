@@ -72,7 +72,7 @@ def init(request):
     })
 
 @require_GET
-@login_required(login_url='/signin/')
+@login_required(login_url='/login/')
 def new(request):
     
     paginator = paginate(request, Question.objects.new())    
@@ -82,7 +82,7 @@ def new(request):
     })
 
 @require_GET
-@login_required(login_url='/signin/')
+@login_required(login_url='/login/')
 def popular(request):
     
     paginator = paginate(request, Question.objects.popular())    
@@ -93,7 +93,7 @@ def popular(request):
 
 @csrf_exempt
 @require_http_methods(["GET", "POST"])
-@login_required(login_url='/signin/')
+@login_required(login_url='/login/')
 def question(request, *args, **kwargs):
     id = 0
     try:
@@ -121,7 +121,7 @@ def question(request, *args, **kwargs):
     
 @csrf_exempt    
 @require_http_methods(["GET", "POST"])
-@login_required(login_url='/signin/')
+@login_required(login_url='/login/')
 def ask(request):
     if request.method == "POST":
         form = AskForm(request.POST)
@@ -156,7 +156,7 @@ def signup(request):
             error = 'Не проканало'
     else:
         form = SignupForm()
-    return render(request, 'qa/signup.html', {
+    return render(request, 'qa/sign.html', {
         'form': form,
         'error': error,
         'url': 'signup',
@@ -187,10 +187,10 @@ def signin(request):
             error = 'Не проканало'
     else:
         form = SigninForm()
-    return render(request, 'qa/signup.html', {
+    return render(request, 'qa/sign.html', {
         'form': form,
         'error': error,
-        'url': 'signin',
+        'url': 'login',
             }
         )
     
