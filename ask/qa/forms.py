@@ -29,6 +29,8 @@ class AskForm(forms.Form):
     
     def clean_author(self):
         author = self.cleaned_data['author']
+        with open('/home/box/web/log/ask.log','w+') as f:
+            f.write(author) 
         try:
             author = User.objects.get(username=author)
         except:
