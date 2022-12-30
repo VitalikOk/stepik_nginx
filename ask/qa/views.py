@@ -128,7 +128,8 @@ def ask(request):
     if request.method == "POST":        
         form = AskForm(request.POST)
         form._author = request.user
-        f.write(str(request.POST) + ' ' + request.user)
+        str_1 = str(request.POST) + ' ' + str(request.user)
+        f.write(str_1)
         if form.is_valid():
             question = form.save()
             url = question.get_url()
