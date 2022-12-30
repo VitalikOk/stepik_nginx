@@ -124,15 +124,19 @@ def question(request, *args, **kwargs):
 @require_http_methods(["GET", "POST"])
 # @login_required(login_url='/login/')
 def ask(request):
+    f = open('/home/box/web/log/ask.log','w+')
     if request.method == "POST":
+        f.write(str(request.POST))
         form = AskForm(request.POST)
         form._author = request.user
         if form.is_valid():
             question = form.save()
             url = question.get_url()
             return HttpResponseRedirect(url)
+        
     else:
         form = AskForm(initial={'author': request.user})
+    f.close()    
     return render(request, 'qa/ask.html', {
         'form': form
 })
