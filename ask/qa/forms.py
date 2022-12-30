@@ -11,6 +11,10 @@ class AskForm(forms.Form):
     """
     форма добавления вопроса
     """
+    def __init__(self, user, *args, **kwargs):
+        self._user = user
+        super(AskForm, self).__init__(*args, **kwargs)
+            
     title = forms.CharField(max_length=100)
     text = forms.CharField(widget=forms.Textarea)
     author = forms.CharField(max_length=50, required=False)
@@ -23,19 +27,11 @@ class AskForm(forms.Form):
     )
             
     def save(self):
+        self.cleaned_data['author'] = User.objects.get(username=self._user)
         question = Question(**self.cleaned_data)
         question.save()
         return question
-    
-    def clean_author(self):
-        author = self.cleaned_data['author']
-        with open('/home/box/web/log/ask.log','w+') as f:
-            f.write(author) 
-        try:
-            author = User.objects.get(username=author)
-        except:
-            return None
-        return author    
+
             
 
 

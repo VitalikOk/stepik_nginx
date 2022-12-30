@@ -125,15 +125,14 @@ def question(request, *args, **kwargs):
 # @login_required(login_url='/login/')
 def ask(request):
     if request.method == "POST":        
-        form = AskForm(request.POST)
-        form.author = request.user
+        form = AskForm(request.user, request.POST)
         if form.is_valid():
             question = form.save()
             url = question.get_url()
             return HttpResponseRedirect(url)
         
     else:
-        form = AskForm(initial={'author': request.user})
+        form = AskForm(request.user, initial={'author': request.user})
     return render(request, 'qa/ask.html', {
         'form': form
 })
