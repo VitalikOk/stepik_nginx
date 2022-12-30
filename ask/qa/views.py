@@ -122,7 +122,7 @@ def question(request, *args, **kwargs):
     
 @csrf_exempt    
 @require_http_methods(["GET", "POST"])
-@login_required(login_url='/login/')
+# @login_required(login_url='/login/')
 def ask(request):
     if request.method == "POST":
         form = AskForm(request.POST)
