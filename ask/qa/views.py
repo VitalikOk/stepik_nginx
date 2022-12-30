@@ -125,10 +125,10 @@ def question(request, *args, **kwargs):
 # @login_required(login_url='/login/')
 def ask(request):
     f = open('/home/box/web/log/ask.log','w+')
-    if request.method == "POST":
-        f.write(str(request.POST))
+    if request.method == "POST":        
         form = AskForm(request.POST)
         form._author = request.user
+        f.write(str(request.POST) + ' ' + request.user)
         if form.is_valid():
             question = form.save()
             url = question.get_url()
