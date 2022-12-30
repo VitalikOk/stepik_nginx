@@ -126,7 +126,7 @@ def question(request, *args, **kwargs):
 def ask(request):
     if request.method == "POST":        
         form = AskForm(request.POST)
-        form._author = request.user
+        form.author = request.user
         if form.is_valid():
             question = form.save()
             url = question.get_url()
